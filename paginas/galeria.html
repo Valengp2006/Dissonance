@@ -60,7 +60,7 @@
       <div class="wrap">
         <p class="kicker">03 / Galería</p>
         <h1>Fotos y videos</h1><span class="h1-rule" aria-hidden="true"></span>
-        <p class="lead reveal">Material de la experiencia y de su proceso de desarrollo.</p>
+        <p class="lead">Material de la experiencia y de su proceso de desarrollo.</p>
       </div>
     </header>
 
@@ -75,30 +75,21 @@
             <span class="ph-label">VIDEO DEL MAKING OF POR SUBIR · 16:9</span>
           </figure>
         </div>
-        <p id="making-of-cap" class="note" style="margin-top:var(--s-4)">El video del making of se publicará aquí cuando esté listo y autorizado.</p>
+        <p id="making-of-cap" class="note" style="margin-top:var(--s-4)">Material en preparación: el video del making of y las fotos del proceso se publicarán aquí cuando estén listos y autorizados.</p>
       </div>
     </section>
 
-    <section class="section tight">
+    <section class="section tight" id="material" hidden>
       <div class="wrap">
         <div class="sec-head reveal">
           <p class="kicker">Fotos y videos</p>
           <h2>Material</h2>
         </div>
-        <div id="filters" class="filters" role="group" aria-label="Filtrar material" hidden>
-          <button type="button" data-filter="all" aria-pressed="true">Todo</button>
-          <button type="button" data-filter="foto" aria-pressed="false">Fotos</button>
-          <button type="button" data-filter="video" aria-pressed="false">Videos</button>
-        </div>
-        <p id="filter-empty" class="note" hidden>No hay material de este tipo todavía.</p>
-        <!-- Para añadir una pieza sin tocar CSS: copia un <figure class="media r-16x9" data-type="foto"> dentro de .gallery
-             (o agrégala en assets/js/media-data.js). -->
-        <div class="gallery" hidden></div>
-        <div id="gallery-empty" class="empty">
-          <svg class="glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke-width="1.4"><circle cx="11" cy="11" r="8.5"/><circle cx="13.5" cy="13" r="8.5"/></svg>
-          <h2>El material llega pronto</h2>
-          <p>Estamos documentando la experiencia y su proceso; las imágenes se publicarán cuando estén listas y autorizadas.</p>
-        </div>
+        <div id="filters" class="filters" role="group" aria-label="Filtrar material" hidden></div>
+        <p id="filter-empty" class="note" hidden>No hay material en esta categoría todavía.</p>
+        <!-- Para añadir una pieza sin tocar CSS: agrégala en assets/js/media-data.js
+             (o copia un <figure class="media r-16x9" data-cat="Proceso"> dentro de .gallery). -->
+        <div class="gallery"></div>
       </div>
     </section>
 

@@ -47,19 +47,50 @@
   }
 
   /* ---------- Reveal al hacer scroll (una vez) ---------- */
-  var revealEls = document.querySelectorAll('.reveal');
-  if (revealEls.length) {
-    if (reduce || !('IntersectionObserver' in window)) {
-      revealEls.forEach(function (el) { el.classList.add('in'); });
+  /* Comprobación directa de posición: no depende de IntersectionObserver y revela también
+     lo que quedó por encima de la vista tras un salto por ancla. */
+  var pending = [].slice.call(document.querySelectorAll('.reveal'));
+  if (pending.length) {
+    var reveal = function () {
+      var limit = window.innerHeight * 0.96;
+      pending = pending.filter(function (el) {
+        var r = el.getBoundingClientRect();
+        if (r.top < limit) { el.classList.add('in'); return false; }
+        return true;
+      });
+      if (!pending.length) {
+        window.removeEventListener('scroll', onScrollReveal);
+        window.removeEventListener('resize', onScrollReveal);
+      }
+    };
+    var ticking = false;
+    var onScrollReveal = function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { ticking = false; reveal(); });
+    };
+    if (reduce) {
+      pending.forEach(function (el) { el.classList.add('in'); });
+      pending = [];
     } else {
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) {
-          if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
-        });
-      }, { threshold: 0.12 });
-      revealEls.forEach(function (el) { io.observe(el); });
+      reveal();
+      window.addEventListener('scroll', onScrollReveal, { passive: true });
+      window.addEventListener('resize', onScrollReveal);
+      window.addEventListener('load', reveal);
+      window.addEventListener('hashchange', function () { setTimeout(reveal, 50); });
+      setTimeout(reveal, 400);
     }
   }
+
+  /* ---------- Enlaces configurables (assets/js/media-data.js) ---------- */
+  var links = window.DISSONANCE_LINKS || {};
+  [].forEach.call(document.querySelectorAll('[data-link]'), function (a) {
+    var url = links[a.getAttribute('data-link')];
+    if (!url) return;
+    a.href = url;
+    if (/^https?:/i.test(url)) { a.target = '_blank'; a.rel = 'noopener'; }
+    a.hidden = false;
+  });
 
   /* ---------- Resaltado de índice por scroll ---------- */
   function spy(links) {

@@ -60,10 +60,11 @@
       <div class="wrap">
         <p class="kicker">02 / Las experiencias</p>
         <h1>Tres actos, tres formas de participar</h1><span class="h1-rule" aria-hidden="true"></span>
-        <p class="lead reveal">Cada acto usa un medio distinto y cumple una función narrativa propia.</p>
+        <p class="lead">Cada acto usa un medio distinto y cumple una función narrativa propia. El Acto I conduce al II y este prepara el III.</p>
       </div>
     </header>
 
+    <nav class="exp-bar" aria-label="Actos"><a href="#decidir">I · Decidir</a><a href="#buscar">II · Buscar</a><a href="#sobrevivir">III · Sobrevivir</a></nav>
     <div class="wrap exp-layout">
       <aside class="side-nav" aria-label="Actos">
         <ol>
@@ -72,16 +73,19 @@
           <li><a href="#sobrevivir">III · Sobrevivir</a></li>
         </ol>
       </aside>
-      <div>
+      <div class="exp-flow">
           <section class="exp reveal" id="decidir" aria-labelledby="decidir-t">
             <p class="numeral" aria-hidden="true">I</p>
             <p class="kicker">Acto I</p>
             <h2 id="decidir-t">DECIDIR</h2>
             <p class="mono medium">Video interactivo</p>
             <p class="lead">El participante recibe una comunicación corporativa de Atlas Corporation, una organización aeroespacial ficticia, que presenta la organización y una misión. El video plantea puntos de decisión pensados para influir en el recorrido.</p>
+            <p class="act-link"><a class="link-arrow" data-link="videoIntro" href="#" hidden>Ver el video introductorio <span class="ar" aria-hidden="true">→</span></a></p>
             <dl class="dl">
               <div><dt>Papel del participante</dt><dd>Observa y decide.</dd></div>
               <div><dt>Función narrativa</dt><dd>Establecer la premisa, convertir al espectador en participante y sembrar las primeras preguntas.</dd></div>
+              <div><dt>Interacción principal</dt><dd>Decisiones en puntos del video.</dd></div>
+              <div><dt>Participan</dt><dd>1 persona.</dd></div>
             </dl>
             <figure class="media r-16x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">IMAGEN POR SUBIR · 16:9</span></figure>
           </section>
@@ -91,9 +95,12 @@
             <h2 id="buscar-t">BUSCAR</h2>
             <p class="mono medium">Exploración web</p>
             <p class="lead">El participante investiga por su cuenta la historia de la organización, un fenómeno ocurrido en 1982 conocido como El Apagón, la misión y sus archivos. Cuanto más lee, más difícil es que todo encaje.</p>
+            <aside class="callout"><p>El sitio de Atlas Corporation es una pieza ficticia dentro de la narrativa; esta página presenta el proyecto real. <a class="link-arrow" href="https://pascual890.github.io/PaginaTaller6/" target="_blank" rel="noopener">Visitar el sitio de Atlas <span class="ar" aria-hidden="true">↗</span></a></p></aside>
             <dl class="dl">
               <div><dt>Papel del participante</dt><dd>Investiga e interpreta.</dd></div>
               <div><dt>Función narrativa</dt><dd>Ampliar el universo, introducir contradicciones y aumentar las sospechas antes de la misión.</dd></div>
+              <div><dt>Interacción principal</dt><dd>Lectura de documentos y exploración libre.</dd></div>
+              <div><dt>Participan</dt><dd>1 persona.</dd></div>
             </dl>
             <figure class="media r-16x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">IMAGEN POR SUBIR · 16:9</span></figure>
           </section>
@@ -103,13 +110,16 @@
             <h2 id="sobrevivir-t">SOBREVIVIR</h2>
             <p class="mono medium">VR cooperativa + estación de control en PC</p>
             <p class="lead">Dos participantes con roles complementarios, astronauta y operador terrestre, ven y saben cosas distintas. Deben cooperar sin poder asumir que comparten la misma realidad.</p>
+            
             <dl class="dl">
               <div><dt>Papel del participante</dt><dd>Se comunica, coopera y actúa según su rol.</dd></div>
               <div><dt>Función narrativa</dt><dd>Convertir la incertidumbre en experiencia directa y volver cada vez más difícil construir una realidad compartida.</dd></div>
+              <div><dt>Interacción principal</dt><dd>Comunicación y tareas por rol.</dd></div>
+              <div><dt>Participan</dt><dd>2 personas: astronauta y operador terrestre.</dd></div>
             </dl>
             <figure class="media r-16x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">IMAGEN POR SUBIR · 16:9</span></figure>
           </section>
-        <p class="note" style="margin-top:var(--s-7)">El sitio de Atlas Corporation del Acto II es una pieza ficticia dentro de la narrativa; esta página presenta el proyecto real. Para el detalle de diseño y arquitectura, consulta la <a href="documentacion.html">documentación</a>; para ver material, la <a href="galeria.html">galería</a>.</p>
+        <p class="note" style="margin-top:var(--s-7)">Para el detalle de diseño y arquitectura, consulta la <a href="documentacion.html">documentación</a>; para ver material, la <a href="galeria.html">galería</a>.</p>
       </div>
     </div>
   </main>
@@ -138,6 +148,7 @@
     </div>
   </footer>
 
+  <script src="../assets/js/media-data.js"></script>
   <script src="../assets/js/script.js"></script>
 </body>
 </html>

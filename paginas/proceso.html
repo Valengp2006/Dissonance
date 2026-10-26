@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Proceso · DISSONANCE</title>
-  <meta name="description" content="Investigación, hallazgos y pruebas de usabilidad planteadas para DISSONANCE.">
+  <meta name="description" content="Cómo se investigó, qué se encontró y qué se probó hasta ahora en DISSONANCE.">
   <meta name="theme-color" content="#04050a">
   <meta property="og:title" content="Proceso · DISSONANCE">
-  <meta property="og:description" content="Investigación, hallazgos y pruebas de usabilidad planteadas para DISSONANCE.">
+  <meta property="og:description" content="Cómo se investigó, qué se encontró y qué se probó hasta ahora en DISSONANCE.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://valengp2006.github.io/Dissonance/paginas/proceso.html">
   <!-- TODO og:image: requiere una imagen real o diseñada y aprobada por el equipo -->
@@ -55,87 +55,70 @@
   </div>
 
   <main id="contenido">
-    <!-- Anomalía de esta página: subrayado desfasado bajo el H1 (regla 4.5 de DESIGN.md) -->
+    <!-- Anomalía de esta página: motivo de los dos anillos desfasados en «Lo que probamos» (regla 4.5 de DESIGN.md) -->
     <header class="page-hero">
       <div class="wrap">
         <p class="kicker">04 / Proceso creativo</p>
         <h1>Cómo se construye DISSONANCE</h1><span class="h1-rule" aria-hidden="true"></span>
-        <p class="lead reveal">De la investigación sobre el universo y el miedo a las decisiones de diseño: objetivo, encuesta, entrevistas, hallazgos y pruebas.</p>
+        <p class="lead">Investigamos cómo las personas viven el universo y el miedo, convertimos lo que aprendimos en decisiones de diseño y empezamos a probarlo con participantes.</p>
       </div>
     </header>
 
     <nav class="jump wrap" aria-label="En esta página">
-      <a href="#objetivo">Objetivo</a><a href="#exploracion">Exploración temática</a><a href="#fuentes">Fuentes</a>
-      <a href="#encuesta">Encuesta</a><a href="#entrevistas">Entrevistas</a><a href="#hallazgos">Hallazgos</a>
-      <a href="#recomendaciones">Recomendaciones</a><a href="#pruebas">Pruebas</a><a href="#resultados">Resultados</a><a href="#fases">Fases</a>
+      <a href="#panorama">Panorama</a><a href="#investigamos">Investigamos</a><a href="#encontramos">Encontramos</a>
+      <a href="#decidimos">Decidimos</a><a href="#probamos">Probamos</a>
     </nav>
 
-    <section class="section" id="objetivo">
+    <section class="section tight" id="panorama">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat reveal"><p class="num">39</p><p>respuestas de encuesta</p></div>
+          <div class="stat reveal"><p class="num">11</p><p>entrevistas</p></div>
+          <div class="stat reveal"><p class="num">1.ª</p><p>ronda de pruebas realizada</p></div>
+        </div>
+        <ol class="phases reveal" aria-label="Fases del proyecto"><li><span class="tn">01</span><span class="pn">Investigación</span><p class="chips"><span class="chip done">Completado</span></p></li><li><span class="tn">02</span><span class="pn">Concepto</span></li><li><span class="tn">03</span><span class="pn">Narrativa</span></li><li><span class="tn">04</span><span class="pn">Recorrido del participante</span></li><li><span class="tn">05</span><span class="pn">Prototipos</span></li><li><span class="tn">06</span><span class="pn">Pruebas con usuarios</span><p class="chips"><span class="chip active">En curso</span></p></li><li><span class="tn">07</span><span class="pn">Desarrollo web</span></li><li><span class="tn">08</span><span class="pn">Secretos narrativos</span></li><li><span class="tn">09</span><span class="pn">Integración</span></li><li><span class="tn">10</span><span class="pn">Pruebas finales</span></li></ol>
+        <p class="note">Evidencia de cada fase por subir.</p>
+      </div>
+    </section>
+
+    <section class="section" id="investigamos">
       <div class="wrap">
         <div class="sec-head reveal">
-        <p class="kicker">Investigación</p>
+        <p class="kicker">Investigamos</p>
         <h2>Qué quisimos aprender</h2>
       </div>
-        <p class="statement reveal">Analizar las percepciones, emociones y preferencias de los usuarios frente al universo y el horror cósmico, con el fin de establecer criterios que orienten el diseño de una experiencia.</p>
-        <div class="split" style="margin-top:var(--s-8)">
-          <h3 class="reveal">Objetivos específicos</h3>
-          <div class="reveal"><ul class="bullets"><li>Identificar las emociones que despiertan las experiencias con temática espacial en los potenciales usuarios.</li><li>Identificar los formatos y medios que generan mayor inmersión y emociones intensas en experiencias de terror.</li><li>Explorar la percepción de los usuarios frente al universo, la inmensidad, la soledad y lo desconocido como posibles fuentes de miedo.</li><li>Identificar elementos narrativos, visuales y sonoros que los usuarios asocian con experiencias de terror espacial.</li><li>Recopilar referentes, preferencias e imaginarios de los usuarios sobre el terror espacial para orientar el diseño narrativo de la experiencia.</li></ul></div>
-        </div>
-        <div class="split">
-          <h3 class="reveal">Hipótesis</h3>
-          <div class="reveal"><ul class="bullets"><li>Las personas asocian el universo con emociones tanto de asombro como de incertidumbre, dependiendo del contexto en que se presente.</li><li>La inmensidad del espacio favorece la aparición de emociones relacionadas con la vulnerabilidad y la insignificancia humana.</li><li>Los usuarios perciben la soledad en el espacio como un elemento que incrementa la tensión emocional en una experiencia narrativa.</li><li>Las cosas desconocidas tienden a generar sentimientos de inquietud que las presencias de seres de una forma muy explícita.</li><li>Los usuarios perciben que las experiencias inmersivas generan emociones más intensas que los formatos audiovisuales tradicionales.</li><li>El miedo asociado al universo proviene más de la incertidumbre y el aislamiento que del peligro físico inmediato.</li><li>La construcción gradual de la tensión narrativa produce un mayor impacto emocional que los sobresaltos constantes.</li><li>Los usuarios prefieren narrativas en las que pueden interpretar los acontecimientos antes que historias con explicaciones completamente definidas.</li><li>La ausencia de información sobre el entorno incrementa la curiosidad y la tensión del usuario.</li></ul></div>
-        </div>
-        <div class="split">
-          <h3 class="reveal">Preguntas que la investigación ayuda a responder</h3>
-          <div class="reveal"><ul class="bullets"><li>¿Qué sensación genera el estar frente a algo completamente desconocido?</li><li>¿Qué emociones despierta el universo en las personas? ¿Por qué?</li><li>¿Qué hace que una experiencia sobre el espacio se sienta realmente inmersiva?</li><li>¿Qué tipo de experiencias relacionadas con el espacio llaman más la atención de los usuarios?</li><li>¿Qué elementos del universo generan mayor sensación de inquietud o fascinación?</li><li>¿Qué recursos narrativos generan mayor tensión dentro de una historia ambientada en el espacio?</li><li>¿Cómo influye la sensación de no comprender lo que ocurre en la experiencia emocional del usuario?</li><li>¿Cómo cambia la percepción del universo cuando pasa de ser un escenario de exploración científica a uno de horror o misterio?</li><li>¿En qué momento el asombro se transforma en miedo?</li><li>¿Qué elementos aumentan la sensación de estar realmente en el espacio?</li><li>¿Qué tipo de historias resultan más atractivas para los usuarios?</li><li>¿Las personas perciben el universo como un lugar hostil, indiferente o maravilloso?</li><li>¿Qué tipo de interacción resulta más significativa para una experiencia de horror?</li><li>¿Qué elementos audiovisuales permanecen en la memoria del usuario después de la experiencia?</li></ul></div>
-        </div>
-        <div class="split" style="margin-bottom:0">
-          <h3 class="reveal">Audiencia</h3>
-          <div class="reveal"><ul class="bullets"><li>Personas interesadas en ciencia ficción, astronomía o exploración espacial.</li><li>Personas que disfrutan narrativas de terror.</li><li>Personas que sienten curiosidad por el universo y disfrutan explorar mundos ficticios.</li></ul></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="exploracion">
-      <div class="wrap">
-        <div class="sec-head reveal">
-        <p class="kicker">Exploración temática</p>
-        <h2>El universo como fuente de narrativas y miedos</h2>
-        <p class="lead">Para explorar el tema lo abordamos desde cinco ejes.</p>
-      </div>
-        <ol class="numlist one">
-<li class="reveal"><span class="nn">01</span><div><h4>Geográfico</h4><p class="q">¿En qué espacios, físicos y virtuales, se pueden apreciar cosas relacionadas con el tema?</p><p>Observatorios astronómicos, planetarios, museos de ciencias, simuladores, experiencias de realidad virtual, videojuegos, cine de ciencia ficción y horror cósmico, instalaciones inmersivas y libros de terror cósmico.</p></div></li>
-<li class="reveal"><span class="nn">02</span><div><h4>Temporal</h4><p class="q">¿Cómo cambia este fenómeno a través del tiempo?</p><p>El universo pasó de ser un escenario mitológico, lleno de dioses y castigos divinos, a un espacio físico vasto y científicamente medible. Hoy intentamos explorarlo, escucharlo y transmitir señales, y el miedo nace de la posibilidad de captar señales no identificadas o descubrir que no estamos solos.</p></div></li>
-<li class="reveal"><span class="nn">03</span><div><h4>Sociocultural</h4><p class="q">¿Qué factores culturales influyen en la forma en que la gente percibe y entiende el universo?</p><p>El cine de ciencia ficción y los videojuegos de terror han modelado nuestra visión del espacio como un entorno hostil y desconocido. En internet, el espacio se alimenta de historias de creepypastas, transmisiones de radio perdidas y archivos «clasificados». Existe una tensión entre la ciencia y el misterio.</p></div></li>
-<li class="reveal"><span class="nn">04</span><div><h4>Emocional</h4><p class="q">¿Qué emociones genera el universo en las personas y por qué?</p><p>La belleza de las estrellas despierta fascinación; la escala del cosmos transforma el asombro en una sensación de pequeñez extrema. El aislamiento genera una tensión claustrofóbica, y el miedo nace menos del peligro claro que de la incertidumbre: la sensación de que algo nos observa o de escuchar anomalías donde no debería haber nada.</p></div></li>
-<li class="reveal"><span class="nn">05</span><div><h4>Tecnológico</h4><p class="q">¿Qué tecnologías median nuestra relación con el universo?</p><p>Instrumentos de observación, radiotelescopios, sondas espaciales, CGI en el cine, simulaciones astronómicas, realidad virtual, mapas estelares, motores gráficos y satélites.</p></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section" id="fuentes">
-      <div class="wrap">
-        <div class="sec-head reveal">
-        <p class="kicker">Revisión de fuentes</p>
-        <h2>Lo que leímos</h2>
-        <p class="lead">Referentes de filosofía de lo sublime, literatura de horror, psicología del asombro y estudios sobre experiencias inmersivas y sonido.</p>
-      </div>
-        <ul class="src reveal">
-<li>Edmund Burke (1757). <em>A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful</em>.</li><li>Sigmund Freud (1919). <em>Das Unheimliche / The Uncanny</em>.</li><li>H. P. Lovecraft (1927). <em>Supernatural Horror in Literature</em>.</li><li>Matthias Bartelmann (2009). <em>The Dark Universe</em>.</li><li><em>Neurophysiological evidence for the overview effect: a virtual reality journey into space</em>.</li><li><em>The Science of Awe</em>, Greater Good Science Center, UC Berkeley.</li><li><em>Technologies of Observation and Unbearable Space: Cosmic Horror as Epistemological Accident in At the Mountains of Madness</em>.</li><li><em>El horror cósmico y la narrativa sobre lo fantástico de la obra de H. P. Lovecraft a través de las mecánicas del videojuego</em>.</li><li><em>La ciencia detrás de la sonificación de datos espaciales</em> (NASA).</li><li><em>La agorafobia, la apeirofobia y el terror psicológico en medios inmersivos</em>.</li><li><em>El crecimiento de las experiencias inmersivas y planetarios interactivos</em>.</li><li><em>El infrasonido y la respuesta fisiológica al miedo</em>.</li>
+        <p class="statement reveal">Analizar las percepciones, emociones y preferencias de las personas frente al universo y el horror cósmico, para fijar criterios que orienten el diseño de la experiencia.</p>
+        <h3 class="reveal" style="margin-top:var(--s-8)">Cinco ejes desde los que exploramos el tema</h3>
+        <ul class="ejes">
+<li class="reveal"><div class="eje"><h4>Geográfico</h4><p>Observatorios, planetarios, museos, simuladores, realidad virtual, videojuegos, cine e instalaciones inmersivas: dónde se encuentra hoy el universo.</p>
+          <details><summary>Ver detalle</summary><p class="q">¿En qué espacios, físicos y virtuales, se pueden apreciar cosas relacionadas con el tema?</p><p>Observatorios astronómicos, planetarios, museos de ciencias, simuladores, experiencias de realidad virtual, videojuegos, cine de ciencia ficción y horror cósmico, instalaciones inmersivas y libros de terror cósmico.</p></details></div></li>
+<li class="reveal"><div class="eje"><h4>Temporal</h4><p>Del universo mitológico al universo medible. Hoy lo escuchamos y enviamos señales, y el miedo nace de captar algo que no identificamos.</p>
+          <details><summary>Ver detalle</summary><p class="q">¿Cómo cambia este fenómeno a través del tiempo?</p><p>El universo pasó de ser un escenario mitológico, lleno de dioses y castigos divinos, a un espacio físico vasto y científicamente medible. Hoy intentamos explorarlo, escucharlo y transmitir señales, y el miedo nace de la posibilidad de captar señales no identificadas o descubrir que no estamos solos.</p></details></div></li>
+<li class="reveal"><div class="eje"><h4>Sociocultural</h4><p>El cine, los videojuegos de terror y los archivos «clasificados» de internet han moldeado el espacio como un lugar hostil y desconocido.</p>
+          <details><summary>Ver detalle</summary><p class="q">¿Qué factores culturales influyen en la forma en que la gente percibe y entiende el universo?</p><p>El cine de ciencia ficción y los videojuegos de terror han modelado nuestra visión del espacio como un entorno hostil y desconocido. En internet, el espacio se alimenta de historias de creepypastas, transmisiones de radio perdidas y archivos «clasificados». Existe una tensión entre la ciencia y el misterio.</p></details></div></li>
+<li class="reveal"><div class="eje"><h4>Emocional</h4><p>La belleza de las estrellas fascina, la escala del cosmos empequeñece, y el miedo nace menos del peligro que de la incertidumbre.</p>
+          <details><summary>Ver detalle</summary><p class="q">¿Qué emociones genera el universo en las personas y por qué?</p><p>La belleza de las estrellas despierta fascinación; la escala del cosmos transforma el asombro en una sensación de pequeñez extrema. El aislamiento genera una tensión claustrofóbica, y el miedo nace menos del peligro claro que de la incertidumbre: la sensación de que algo nos observa o de escuchar anomalías donde no debería haber nada.</p></details></div></li>
+<li class="reveal"><div class="eje"><h4>Tecnológico</h4><p>Radiotelescopios, sondas, simulaciones, motores gráficos y realidad virtual median cómo vemos el universo.</p>
+          <details><summary>Ver detalle</summary><p class="q">¿Qué tecnologías median nuestra relación con el universo?</p><p>Instrumentos de observación, radiotelescopios, sondas espaciales, CGI en el cine, simulaciones astronómicas, realidad virtual, mapas estelares, motores gráficos y satélites.</p></details></div></li>
         </ul>
+        <h3 class="reveal" style="margin-top:var(--s-8)">Lo que leímos</h3>
+        <ul class="src reveal">
+<li>Edmund Burke (1757). <em>A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful</em>.</li><li>Sigmund Freud (1919). <em>Das Unheimliche / The Uncanny</em>.</li><li>H. P. Lovecraft (1927). <em>Supernatural Horror in Literature</em>.</li><li><em>Neurophysiological evidence for the overview effect: a virtual reality journey into space</em>.</li><li><em>La ciencia detrás de la sonificación de datos espaciales</em> (NASA).</li>
+        </ul>
+        <p class="reveal" style="margin-top:var(--s-5)"><a class="link-arrow" href="investigacion.html#fuentes">Ver las 12 fuentes <span class="ar" aria-hidden="true">→</span></a></p>
       </div>
     </section>
 
-    <section class="section" id="encuesta">
+    <section class="section" id="encontramos">
       <div class="wrap">
         <div class="sec-head reveal">
-        <p class="kicker">Encuesta</p>
-        <h2>39 respuestas</h2>
-        <p class="lead">Cuestionario sobre cómo se relacionan las personas con el espacio, el terror y los formatos inmersivos.</p>
+        <p class="kicker">Lo que encontramos</p>
+        <h2>Lo que aprendimos</h2>
+        <p class="lead">Con 39 respuestas de encuesta y 11 entrevistas agrupamos los datos por afinidad y los organizamos en hechos, hallazgos y recomendaciones.</p>
       </div>
         <div class="stats">
           <div class="stat reveal"><p class="num">82,1 %</p><p>tenía entre 18 y 25 años</p></div>
-          <div class="stat reveal"><p class="num">79,5 %</p><p>había visto o interactuado con experiencias de terror espacial, físicas o digitales</p></div>
+          <div class="stat reveal"><p class="num">79,5 %</p><p>había visto o interactuado con experiencias de terror espacial</p></div>
           <div class="stat reveal"><p class="num">69,2 %</p><p>le resulta muy o extremadamente incómoda la idea de estar completamente solo/a en el espacio</p></div>
         </div>
         <div class="two-col">
@@ -145,128 +128,89 @@
             <ul class="bars" aria-label="Emociones al pensar en el espacio exterior"><li><span class="b-l">Curiosidad</span><span class="b-t" aria-hidden="true"><i style="width:71.8%"></i></span><span class="b-v">71,8 %<small> · 28 de 39</small></span></li><li><span class="b-l">Asombro</span><span class="b-t" aria-hidden="true"><i style="width:61.5%"></i></span><span class="b-v">61,5 %<small> · 24 de 39</small></span></li><li><span class="b-l">Inquietud</span><span class="b-t" aria-hidden="true"><i style="width:56.4%"></i></span><span class="b-v">56,4 %<small> · 22 de 39</small></span></li><li><span class="b-l">Miedo</span><span class="b-t" aria-hidden="true"><i style="width:41.0%"></i></span><span class="b-v">41,0 %<small> · 16 de 39</small></span></li><li><span class="b-l">Soledad</span><span class="b-t" aria-hidden="true"><i style="width:30.8%"></i></span><span class="b-v">30,8 %<small> · 12 de 39</small></span></li><li><span class="b-l">Vulnerabilidad</span><span class="b-t" aria-hidden="true"><i style="width:28.2%"></i></span><span class="b-v">28,2 %<small> · 11 de 39</small></span></li><li><span class="b-l">Indiferencia</span><span class="b-t" aria-hidden="true"><i style="width:5.1%"></i></span><span class="b-v">5,1 %<small> · 2 de 39</small></span></li></ul>
           </div>
           <div class="reveal">
-            <h3>Conceptos que en algún punto generaron miedo o incomodidad</h3>
-            <p class="note">Se podían elegir varios.</p>
-            <ul class="bars" aria-label="Conceptos que generaron miedo o incomodidad"><li><span class="b-l">Sentirse observado</span><span class="b-t" aria-hidden="true"><i style="width:76.9%"></i></span><span class="b-v">76,9 %<small> · 30 de 39</small></span></li><li><span class="b-l">Oscuridad</span><span class="b-t" aria-hidden="true"><i style="width:53.8%"></i></span><span class="b-v">53,8 %<small> · 21 de 39</small></span></li><li><span class="b-l">Lugares abandonados</span><span class="b-t" aria-hidden="true"><i style="width:53.8%"></i></span><span class="b-v">53,8 %<small> · 21 de 39</small></span></li><li><span class="b-l">Sonidos extraños</span><span class="b-t" aria-hidden="true"><i style="width:53.8%"></i></span><span class="b-v">53,8 %<small> · 21 de 39</small></span></li><li><span class="b-l">Presencias o criaturas</span><span class="b-t" aria-hidden="true"><i style="width:51.3%"></i></span><span class="b-v">51,3 %<small> · 20 de 39</small></span></li><li><span class="b-l">Espacios vacíos</span><span class="b-t" aria-hidden="true"><i style="width:33.3%"></i></span><span class="b-v">33,3 %<small> · 13 de 39</small></span></li><li><span class="b-l">Niebla o visibilidad reducida</span><span class="b-t" aria-hidden="true"><i style="width:30.8%"></i></span><span class="b-v">30,8 %<small> · 12 de 39</small></span></li><li><span class="b-l">Espacios amplios</span><span class="b-t" aria-hidden="true"><i style="width:20.5%"></i></span><span class="b-v">20,5 %<small> · 8 de 39</small></span></li><li><span class="b-l">Espacios reducidos</span><span class="b-t" aria-hidden="true"><i style="width:2.6%"></i></span><span class="b-v">2,6 %<small> · 1 de 39</small></span></li></ul>
+            <h3>Conceptos que generaron miedo o incomodidad</h3>
+            <p class="note">Los cinco primeros; se podían elegir varios.</p>
+            <ul class="bars" aria-label="Conceptos que generaron miedo o incomodidad"><li><span class="b-l">Sentirse observado</span><span class="b-t" aria-hidden="true"><i style="width:76.9%"></i></span><span class="b-v">76,9 %<small> · 30 de 39</small></span></li><li><span class="b-l">Oscuridad</span><span class="b-t" aria-hidden="true"><i style="width:53.8%"></i></span><span class="b-v">53,8 %<small> · 21 de 39</small></span></li><li><span class="b-l">Lugares abandonados</span><span class="b-t" aria-hidden="true"><i style="width:53.8%"></i></span><span class="b-v">53,8 %<small> · 21 de 39</small></span></li><li><span class="b-l">Sonidos extraños</span><span class="b-t" aria-hidden="true"><i style="width:53.8%"></i></span><span class="b-v">53,8 %<small> · 21 de 39</small></span></li><li><span class="b-l">Presencias o criaturas</span><span class="b-t" aria-hidden="true"><i style="width:51.3%"></i></span><span class="b-v">51,3 %<small> · 20 de 39</small></span></li></ul>
           </div>
         </div>
-        <p class="reveal" style="margin-top:var(--s-7)">El universo resulta «muy desconocido» para el 48,7 % y «completamente desconocido» para el 23,1 %. Entre los formatos de terror y espacio más consumidos destacan las películas (56,4 %), seguidas de los videos (17,9 %) y los videojuegos (15,4 %).</p>
-      </div>
-    </section>
-
-    <section class="section" id="entrevistas">
-      <div class="wrap">
-        <div class="sec-head reveal">
-        <p class="kicker">Entrevistas</p>
-        <h2>11 entrevistas</h2>
-        <p class="lead">Conversaciones para entender cómo se vive el espacio, el miedo y la exploración a ritmo propio.</p>
-      </div>
-        <p class="reveal">Se conversó sobre las emociones frente al universo y la soledad en el espacio, los elementos que producen miedo o tensión, los referentes que dejaron huella y la importancia de explorar a ritmo propio en una experiencia interactiva. Junto con las 39 respuestas de la encuesta, estas entrevistas son la base de los hallazgos.</p>
-      </div>
-    </section>
-
-    <section class="section" id="hallazgos">
-      <div class="wrap">
-        <div class="sec-head reveal">
-        <p class="kicker">Hallazgos</p>
-        <h2>Lo que aprendimos</h2>
-        <p class="lead">Con las 11 entrevistas y las 39 respuestas de la encuesta agrupamos los datos por afinidad (clustering) y los organizamos con investigación atómica: hechos, hallazgos y recomendaciones.</p>
-      </div>
-        <h3 class="reveal">Hallazgos</h3>
-        <ul class="bullets"><li>La inmersión aumenta cuando el usuario pierde referencias del mundo real y siente que ocupa físicamente el espacio ficticio.</li><li>El miedo espacial se intensifica cuando la inmensidad se combina con el aislamiento y la ausencia de ayuda.</li><li>La soledad absoluta en un entorno infinito es percibida como una amenaza psicológica capaz de deteriorar la estabilidad mental.</li><li>La escala del universo genera una sensación de pequeñez que puede pasar del asombro a la inquietud, dependiendo del contexto.</li><li>El misterio funciona como un elemento de atracción: las personas quieren explorar aquello que desconocen, incluso cuando ese desconocimiento puede generar miedo.</li><li>La pérdida de control sobre el propio destino resulta más perturbadora que la posibilidad de morir.</li><li>Las experiencias inmersivas funcionan mejor cuando involucran varios sentidos.</li><li>El verdadero terror en el espacio es epistemológico, no de agresión física.</li><li>Videojuegos como Bloodborne, Returnal o SOMA muestran que el horror cósmico se traduce mediante exploración, aislamiento, escasez de información y gestión de la «cordura», en lugar de combate directo.</li><li>Como en el espacio la visibilidad es limitada y la inmensidad abruma la vista, el sonido (sonificación e infrasonidos) se convierte en la herramienta principal para generar alerta e hipervigilancia.</li></ul>
-        <h3 class="reveal" style="margin-top:var(--s-8)">Hechos: voces recogidas</h3>
+        <h3 class="reveal" style="margin-top:var(--s-9)">Cuatro hallazgos</h3>
+        <ol class="numlist one">
+<li class="reveal"><span class="nn">01</span><div><h4>Inmersión y sentidos</h4><p>La inmersión aumenta cuando se pierden las referencias del mundo real y funciona mejor cuando involucra varios sentidos.</p></div></li><li class="reveal"><span class="nn">02</span><div><h4>Inmensidad, soledad y pequeñez</h4><p>El miedo espacial se intensifica cuando la inmensidad se combina con el aislamiento y la ausencia de ayuda. La soledad absoluta se percibe como una amenaza psicológica, y la escala del universo puede pasar del asombro a la inquietud según el contexto.</p></div></li><li class="reveal"><span class="nn">03</span><div><h4>Incertidumbre y control</h4><p>El terror del espacio es epistemológico, no de agresión física: perder el control sobre el propio destino perturba más que la posibilidad de morir. Y el misterio atrae: las personas quieren explorar lo que desconocen, incluso cuando da miedo.</p></div></li><li class="reveal"><span class="nn">04</span><div><h4>Sonido y referentes</h4><p>Con la visibilidad limitada y la inmensidad abrumando la vista, el sonido (sonificación e infrasonidos) es la herramienta principal para generar alerta. Bloodborne, Returnal o SOMA traducen el horror cósmico con exploración, aislamiento, escasez de información y gestión de la «cordura», no con combate.</p></div></li>
+        </ol>
+        <h3 class="reveal" style="margin-top:var(--s-8)">Tres voces</h3>
         <ul class="quotes">
-<li class="reveal"><blockquote>«Podía quedarme horas mirando el cielo porque pensaba que no somos nada.»</blockquote></li><li class="reveal"><blockquote>«Ver el cielo completamente despejado hace que uno se sienta muy pequeño.»</blockquote></li><li class="reveal"><blockquote>«El planetario me hace sentir como si estuviera realmente en el espacio.»</blockquote></li><li class="reveal"><blockquote>«El sonido era lo peor; sentía que caminaban detrás de mí.»</blockquote></li><li class="reveal"><blockquote>«En Backrooms me daba ansiedad porque todo se repetía y nunca encontraba la salida.»</blockquote></li><li class="reveal"><blockquote>«Lo que más me gusta de las historias es el suspenso y no saber qué va a pasar.»</blockquote></li>
+<li class="reveal"><blockquote>«Ver el cielo completamente despejado hace que uno se sienta muy pequeño.»</blockquote></li><li class="reveal"><blockquote>«El sonido era lo peor; sentía que caminaban detrás de mí.»</blockquote></li><li class="reveal"><blockquote>«Lo que más me gusta de las historias es el suspenso y no saber qué va a pasar.»</blockquote></li>
         </ul>
+        <p class="reveal" style="margin-top:var(--s-7)"><a class="link-arrow" href="investigacion.html#hallazgos">Ver todos los hallazgos y resultados <span class="ar" aria-hidden="true">→</span></a></p>
       </div>
     </section>
 
-    <section class="section" id="recomendaciones">
+    <section class="section" id="decidimos">
       <div class="wrap">
         <div class="sec-head reveal">
-        <p class="kicker">Recomendaciones</p>
+        <p class="kicker">Lo que decidimos</p>
         <h2>Lo que haremos</h2>
-        <p class="lead">De los hallazgos salen las decisiones que orientan el diseño de la experiencia.</p>
+        <p class="lead">De los hallazgos salen seis decisiones que orientan el diseño de la experiencia.</p>
       </div>
         <ol class="numlist">
-<li class="reveal"><span class="nn">01</span><div><p>Priorizar el diseño sonoro para generar más inmersión.</p></div></li><li class="reveal"><span class="nn">02</span><div><p>Utilizar la realidad virtual como herramienta base de la experiencia interactiva.</p></div></li><li class="reveal"><span class="nn">03</span><div><p>Utilizar la vulnerabilidad como principal fuente de miedo para desarrollar la narrativa.</p></div></li><li class="reveal"><span class="nn">04</span><div><p>Tener una estructura narrativa fuerte, con historia previa, sin mostrarla de forma explícita en la experiencia.</p></div></li><li class="reveal"><span class="nn">05</span><div><p>Utilizar conceptos asociados a la locura como potenciador del miedo.</p></div></li><li class="reveal"><span class="nn">06</span><div><p>Mostrar la inmensidad espacial y la pequeñez que genera el universo como punto clave.</p></div></li><li class="reveal"><span class="nn">07</span><div><p>Buscar una forma de generar incertidumbre o miedo con algo difícil de comprender.</p></div></li><li class="reveal"><span class="nn">08</span><div><p>Eliminar o usar de forma muy discreta elementos de interfaz que distraigan al usuario de su inmersión.</p></div></li><li class="reveal"><span class="nn">09</span><div><p>Hacer experiencias que balanceen el asombro y el terror, con transiciones entre ambos.</p></div></li>
+<li class="reveal"><span class="nn">01</span><div><p>Priorizar el diseño sonoro para generar más inmersión.</p></div></li><li class="reveal"><span class="nn">02</span><div><p>Usar la realidad virtual como base de la experiencia y reducir al mínimo los elementos de interfaz que distraigan de la inmersión.</p></div></li><li class="reveal"><span class="nn">03</span><div><p>Hacer de la vulnerabilidad la principal fuente de miedo, apoyada en conceptos asociados a la locura.</p></div></li><li class="reveal"><span class="nn">04</span><div><p>Construir una historia previa sólida, sin mostrarla de forma explícita.</p></div></li><li class="reveal"><span class="nn">05</span><div><p>Mostrar la inmensidad del espacio y la pequeñez que genera.</p></div></li><li class="reveal"><span class="nn">06</span><div><p>Generar incertidumbre con algo difícil de comprender, equilibrando asombro y terror con transiciones entre ambos.</p></div></li>
         </ol>
+        <p class="reveal" style="margin-top:var(--s-6)"><a class="link-arrow" href="investigacion.html#recomendaciones">Ver las recomendaciones originales <span class="ar" aria-hidden="true">→</span></a></p>
       </div>
     </section>
 
-    <section class="section" id="pruebas">
+    <section class="section" id="probamos">
       <div class="wrap">
         <div class="sec-head reveal">
-        <p class="kicker">Pruebas de usabilidad</p>
-        <h2>Hipótesis y pruebas planteadas</h2>
-        <p class="lead">Para cada medio planteamos qué creemos que ocurrirá y cómo lo comprobaremos.</p>
-      </div>
-<div class="pairs reveal"><h3>Video interactivo</h3><div class="pair-h"><span>Hipótesis</span><span>Prueba planteada</span></div><div class="pair"><p>Los usuarios comprenderán el contexto narrativo solo con el video, porque la información se entrega de forma progresiva. Lo sabremos si, al terminar, pueden explicar qué ocurrió, dónde y quién es el protagonista sin ayuda externa.</p><p>Prueba de comprensión con 2 o 3 usuarios: ven el video completo sin contexto previo y cuentan con sus palabras qué ocurrió. Se registra cuántos reconstruyen los hechos clave.</p></div><div class="pair"><p>Los usuarios no se darán cuenta de que el video tiene decisiones y varios finales, porque no se les avisa explícitamente. Lo sabremos si, al terminar, no mencionan haber tomado decisiones.</p><p>Entrevista corta al terminar, sin mencionar nada sobre decisiones: se pregunta si sintieron que cambiaron algo de la historia y si creen que puede terminar de otra forma.</p></div></div>
-<div class="pairs reveal"><h3>Página web</h3><div class="pair-h"><span>Hipótesis</span><span>Prueba planteada</span></div><div class="pair"><p>Los usuarios no se sentirán atraídos por la página web, porque quien asiste a una experiencia espera que todo ocurra en el lugar y no continuar en otro dispositivo. Lo sabremos si pocos entran a la página por su cuenta después del video.</p><p>Observación en el lugar de la experiencia: al terminar el video no se indica qué hacer y se registra cuántos entran a la página por su cuenta y cuánto tardan, en contraste con las visitas reales de esa sesión.</p></div><div class="pair"><p>Los usuarios abandonarán el proceso de inscripción, porque tiene varios pasos y no es claro qué papel cumple dentro de la historia. Lo sabremos si inician el registro pero no lo completan.</p><p>Prueba de tarea con 2 o 3 usuarios: se les pide inscribirse pensando en voz alta. Se mide cuántos completan el registro sin ayuda, en qué paso se detienen y qué preguntas hacen.</p></div><div class="pair"><p>Los usuarios navegarán la página de forma superficial, porque la leerán como una página informativa y no como parte de la ficción.</p><p>Exploración libre de 3 minutos, sin instrucciones: se registra a qué secciones entran y se les pregunta qué creen que es esta página.</p></div></div>
-<div class="pairs reveal"><h3>Realidad virtual</h3><div class="pair-h"><span>Hipótesis</span><span>Prueba planteada</span></div><div class="pair"><p>Los usuarios se sentirán perdidos con los controles, porque muchos no han usado VR y el entorno no comunica qué acciones son posibles. Lo sabremos si dudan, se quedan quietos o piden ayuda durante los primeros minutos.</p><p>Prueba de usabilidad observando los primeros 5 minutos, sin instrucciones previas: se mide el tiempo hasta la primera acción correcta, las veces que dudan y los intentos fallidos.</p></div><div class="pair"><p>Los usuarios perderán el hilo de la narrativa, porque la historia se entrega en fragmentos dentro del entorno y no en un orden fijo. Lo sabremos si, al final, no logran reconstruir qué ocurrió.</p><p>Entrevista de reconstrucción al salir: se les pide contar la historia en orden y explicar por qué estaban ahí, y se compara con la secuencia real.</p></div><div class="pair"><p>Los usuarios olvidarán el funcionamiento de los puzzles, porque las instrucciones aparecen una sola vez. Lo sabremos si repiten acciones sin avanzar o se quedan detenidos en un mismo puzzle.</p><p>Registro de la sesión puzzle por puzzle: tiempo en cada uno, acciones repetidas y veces que preguntan cómo funciona.</p></div></div>
-<div class="pairs reveal"><h3>Estación PC</h3><div class="pair-h"><span>Hipótesis</span><span>Prueba planteada</span></div><div class="pair"><p>Los usuarios no sabrán cuál es el siguiente paso, porque la interfaz no tiene guías visuales que indiquen qué elementos son interactivos. Lo sabremos si exploran sin rumbo, prueban al azar o preguntan qué hacer.</p><p>Prueba de tarea con pensamiento en voz alta: se les da un objetivo concreto y se registran los clics en zonas no interactivas, el tiempo hasta el primer acierto y las preguntas.</p></div><div class="pair"><p>Los usuarios no se sentirán inmersos, porque el espacio físico donde se juega mantiene visibles estímulos externos como luz, ruido y otras personas. Lo sabremos si se distraen con el entorno.</p><p>Observación del recorrido completo y escala de 1 a 5 sobre qué tan dentro de la experiencia se sintió, con una pregunta abierta sobre qué lo sacó de ella.</p></div></div>
-      </div>
-    </section>
-
-    <section class="section" id="resultados">
-      <div class="wrap">
-        <div class="sec-head reveal">
-        <p class="kicker">Resultados</p>
+        <p class="kicker">Lo que probamos</p>
         <h2>Primera ronda de pruebas</h2>
-        <p class="lead">Las pruebas se registraron mediante notas de observación durante las sesiones, incluyendo un segundo intento del puzzle y una nueva prueba del sistema.</p>
+        <p class="lead">Las pruebas se registraron con notas de observación durante las sesiones. Confirman que el concepto atrae, pero las tres experiencias necesitan más guía y menos fricción antes de la siguiente ronda.</p>
       </div>
-        <p class="reveal">Las pruebas confirman que el concepto atrae, pero las tres experiencias necesitan guía y menos fricción antes de la siguiente ronda: el participante no entiende rápido qué debe hacer, y esa confusión se mezcla con la desorientación que se diseñó a propósito. Para leer los hallazgos distinguimos dos tipos de confusión:</p>
-        <ul class="bullets reveal">
-          <li><strong>Disonancia intencional:</strong> información contradictoria, percepción que se rompe, pérdida de control. Es parte de la narrativa y se mantiene.</li>
-          <li><strong>Fricción de usabilidad:</strong> no saber qué hacer, qué botón usar o qué parámetro se modifica. No aporta al terror y se corrige.</li>
-        </ul>
-        <div class="stats" style="margin-top:var(--s-8)">
-          <div class="stat reveal"><p class="num">≈ 15 → 7 min</p><p>tardó el primer puzzle en la primera y en la segunda prueba</p></div>
-          <div class="stat reveal"><p class="num">4 min</p><p>tardaron los usuarios en llegar al formulario del sitio, que debería ser su objetivo principal</p></div>
+        <div class="compare reveal">
+          <div><h3>Disonancia intencional</h3><p>Información contradictoria, percepción que se rompe, pérdida de control. Es parte de la narrativa y se mantiene.</p></div>
+          <svg class="dis-mini" viewBox="0 0 120 80" fill="none" role="img" aria-label="Dos círculos casi concéntricos que no coinciden"><circle class="a" cx="50" cy="40" r="30" stroke-width="1.4"/><circle class="b" cx="50" cy="40" r="30" stroke-width="1.4"/></svg>
+          <div><h3>Fricción de usabilidad</h3><p>No saber qué hacer, qué botón usar o qué parámetro se modifica. No aporta al terror y se corrige.</p></div>
+        </div>
+        <div class="stats" style="margin-top:var(--s-9)">
+          <div class="stat reveal"><p class="num">≈ 15 → 7 min</p><p>lo que tardó el primer puzzle en la primera y en la segunda prueba</p></div>
+          <div class="stat reveal"><p class="num">4 min</p><p>lo que tardaron en llegar al formulario del sitio, que debería ser su objetivo principal</p></div>
           <div class="stat reveal"><p class="num">2</p><p>puzzles que aún faltan por probar</p></div>
         </div>
-<article class="res reveal"><h3>Acto I · Video interactivo</h3><p class="lead">El video depende de que el participante lo escuche bien y sin interrupciones. Es el primer contacto con Atlas Corporation, así que una falla de audio rompe la premisa desde el comienzo.</p><div class="res-cols"><div><h4>Hallazgos</h4><ul class="bullets"><li>El participante necesita escuchar la información sin ruido externo; si no, pierde datos de la historia y de las decisiones.</li><li>No hay subtítulos para cuando el audio falla o es difícil de entender.</li><li>Los factores externos influyen demasiado: los resultados cambian según el entorno, no según el diseño.</li></ul></div><div><h4>Mejoras previstas</h4><ul class="bullets"><li>Audífonos disponibles en la estación del video y uso obligatorio.</li><li>Subtítulos, activados por defecto o con un control visible.</li><li>Hacer el video en un espacio aislado del ruido externo y separado de otros participantes.</li><li>Revisar que cada decisión muestre claramente sus opciones y que el participante entienda que está decidiendo.</li></ul></div></div></article>
-<article class="res reveal"><h3>Acto II · Sitio web</h3><p class="lead">El sitio gusta visualmente, pero tiene demasiado contenido para lo que debe lograr: captar los datos del usuario y llevarlo a postularse.</p><div class="res-cols"><div class="res-ok"><h4>Qué funcionó</h4><ul class="bullets"><li>La interfaz es llamativa y gusta visualmente, aunque resulta algo confusa.</li><li>El formulario fue fácil de completar.</li></ul></div><div><h4>Hallazgos</h4><ul class="bullets"><li>Carga cognitiva alta: demasiado texto y sin guía; el usuario no sabe por dónde empezar.</li><li>Los usuarios tardaron 4 minutos en hallar el formulario.</li><li>Falta elegir como primer punto si se participa de forma individual o en pareja, un dato clave para asignar los roles.</li><li>La ventana emergente puede cerrarse por accidente y el usuario pierde lo que estaba haciendo.</li></ul></div><div><h4>Mejoras previstas</h4><ul class="bullets"><li>Reducir el texto de cada sección y dejar la información de Atlas como contenido secundario.</li><li>Hacer visible y prioritario el acceso a la postulación desde el inicio.</li><li>Poner como primer paso del formulario la elección entre participar de forma individual o en pareja.</li><li>Agregar una guía breve de entrada, sin romper la estética de sistema de 1982.</li><li>Añadir una confirmación o un control para que la ventana emergente no se cierre por accidente.</li></ul></div></div></article>
-<article class="res reveal"><h3>Acto III · VR + PC</h3><p class="lead">Es donde está el mayor riesgo: el primer puzzle es largo, variable y poco claro. En un acto que depende de que la confusión sea narrativa, hoy gran parte de ella es de usabilidad.</p><div class="res-cols"><div class="res-ok"><h4>Qué funcionó</h4><ul class="bullets"><li>En el nuevo intento, los usuarios tardaron poco tiempo en comprender cómo funciona la experiencia.</li><li>Tras explorar un poco, lograron entender la ayuda.</li></ul></div><div><h4>Hallazgos</h4><ul class="bullets"><li>No hay guía ni tutorial que explique el sistema, las instrucciones y cómo mover los controles.</li><li>Al iniciar, el módulo interactivo a veces aparece demasiado lejos y hay que reiniciar la calibración.</li><li>El primer puzzle tardó cerca de 15 minutos en la primera prueba y 7 en la segunda.</li><li>Falta feedback: el usuario no sabe qué está moviendo ni qué afecta.</li><li>El botón principal no es claro y tiene poca jerarquía visual.</li><li>La instrucción de la ayuda no es clara; solo se entiende después de explorar.</li><li>No se ven los parámetros disponibles ni cuál se está modificando.</li><li>Los factores externos influyen demasiado en el tiempo y el resultado.</li></ul></div><div><h4>Mejoras previstas</h4><ul class="bullets"><li>Tutorial corto e interactivo antes del primer puzzle: controles, objetivo y funcionamiento del sistema.</li><li>Reescribir la ayuda con un paso claro por vez.</li><li>Mostrar la lista de parámetros y resaltar el que se está modificando.</li><li>Feedback visual, sonoro o háptico de qué se mueve y cómo afecta al resultado.</li><li>Mayor jerarquía visual del botón principal (tamaño, color y posición).</li><li>Reubicar el módulo a una distancia cómoda y ofrecer una recalibración rápida.</li><li>Ajustar la dificultad del primer puzzle y definir un tiempo objetivo, a validar en la siguiente ronda.</li><li>Aislar a los participantes (espacio y audífonos) y probar los 2 puzzles faltantes.</li></ul></div></div></article>
-        <h3 class="reveal" style="margin-top:var(--s-8)">Hallazgos transversales</h3>
+        <ul class="rows-plain">
+<li class="reveal"><h4>Acto I · Video interactivo</h4><p>Depende de que el participante lo escuche bien y sin interrupciones. Hoy no hay subtítulos y el ruido externo hace perder información. Se prevé: audífonos, subtítulos y un espacio aislado.</p></li><li class="reveal"><h4>Acto II · Sitio web</h4><p>Gusta visualmente, pero tiene demasiado contenido para lo que debe lograr: llevar a la postulación. Se prevé: menos texto, postulación visible desde el inicio y elegir primero si se participa de forma individual o en pareja.</p></li><li class="reveal"><h4>Acto III · VR + PC</h4><p>Es donde está el mayor riesgo: el primer puzzle es largo y poco claro, y falta guía y feedback. Se prevé: tutorial corto, feedback de lo que se mueve, parámetros visibles, mayor jerarquía del botón principal y recalibración rápida.</p></li>
+        </ul>
+        <h3 class="reveal" style="margin-top:var(--s-8)">Tres hallazgos transversales</h3>
         <ol class="numlist one">
-<li class="reveal"><span class="nn">01</span><div><h4>Falta de guía de entrada</h4><p>Ni el sitio ni la VR explican qué hacer al comenzar. El participante aprende explorando, lo cual es lento: 4 minutos para llegar al formulario del sitio y hasta 15 para el primer puzzle.</p></div></li><li class="reveal"><span class="nn">02</span><div><h4>El entorno afecta el resultado</h4><p>El audio del video y el tiempo del puzzle cambian según factores externos. Aislar a los participantes (audífonos y espacios separados) mejora la experiencia y la validez de las próximas pruebas.</p></div></li><li class="reveal"><span class="nn">03</span><div><h4>Aprendizaje rápido en el segundo intento</h4><p>Una vez que el usuario entiende el sistema, avanza con rapidez: el problema está en la explicación inicial y no en la mecánica.</p></div></li>
+<li class="reveal"><span class="nn">01</span><div><h4>Falta de guía de entrada</h4><p>Ni el sitio ni la VR explican qué hacer al empezar; el participante aprende explorando.</p></div></li><li class="reveal"><span class="nn">02</span><div><h4>El entorno afecta el resultado</h4><p>El audio y los tiempos cambian según factores externos; aislar a los participantes mejora la experiencia y la validez de las pruebas.</p></div></li><li class="reveal"><span class="nn">03</span><div><h4>Aprendizaje rápido en el segundo intento</h4><p>El problema está en la explicación inicial, no en la mecánica.</p></div></li>
         </ol>
-        <p class="reveal" style="margin-top:var(--s-6)">La experiencia busca que el participante pierda el control de forma progresiva. Esa pérdida debe sentirse como parte de la historia y no como un error de interfaz: por eso lo que se aclara en el tutorial son los controles y el objetivo, no el misterio.</p>
-
-        <h3 class="reveal" style="margin-top:var(--s-8)">Prioridad de las mejoras</h3>
-        <div class="scroll-x reveal" tabindex="0"><table>
-          <thead><tr><th>Mejora</th><th>Experiencia</th><th>Prioridad</th><th>Por qué</th></tr></thead>
-          <tbody><tr><td>Tutorial corto antes del primer puzzle</td><td>VR</td><td>Alta</td><td>Es la causa principal de los 15 minutos del primer puzzle.</td></tr><tr><td>Feedback de lo que se mueve y su efecto</td><td>VR</td><td>Alta</td><td>Sin él el usuario no aprende la mecánica.</td></tr><tr><td>Botón principal con mayor jerarquía</td><td>VR</td><td>Alta</td><td>La acción principal no es clara.</td></tr><tr><td>Lista de parámetros con el activo resaltado</td><td>VR</td><td>Alta</td><td>Evita confundir qué se está modificando.</td></tr><tr><td>Posición inicial del módulo y recalibración rápida</td><td>VR</td><td>Alta</td><td>Hoy obliga a reiniciar la calibración.</td></tr><tr><td>Aislamiento de participantes y audífonos</td><td>Todas</td><td>Alta</td><td>Los factores externos alteran los tiempos y el audio.</td></tr><tr><td>Reducir texto y destacar la postulación</td><td>Sitio web</td><td>Alta</td><td>Es el propósito principal del sitio.</td></tr><tr><td>Elegir individual o en pareja como primer paso</td><td>Sitio web</td><td>Alta</td><td>Define los roles de la misión.</td></tr><tr><td>Subtítulos en el video</td><td>Video</td><td>Alta</td><td>Cubre fallas de audio.</td></tr><tr><td>Reescribir la instrucción de ayuda</td><td>VR</td><td>Media</td><td>Solo se entiende tras explorar.</td></tr><tr><td>Ajustar dificultad y definir tiempo objetivo</td><td>VR</td><td>Media</td><td>La dificultad es algo alta y el tiempo varía.</td></tr><tr><td>Guía breve de entrada al sitio</td><td>Sitio web</td><td>Media</td><td>No hay guía y la interfaz es confusa.</td></tr><tr><td>Control contra cierre accidental de la ventana emergente</td><td>Sitio web</td><td>Media</td><td>Evita pérdida de avance.</td></tr></tbody>
+        <p class="reveal" style="margin-top:var(--s-6)">La pérdida de control debe sentirse como parte de la historia y no como un error de interfaz: por eso lo que se aclara en el tutorial son los controles y el objetivo, no el misterio.</p>
+        <h3 class="reveal" style="margin-top:var(--s-8)">Mejoras de prioridad alta</h3>
+        <div class="scroll-x reveal" tabindex="0"><table class="narrow-t">
+          <thead><tr><th>Mejora</th><th>Experiencia</th></tr></thead>
+          <tbody><tr><td>Tutorial corto antes del primer puzzle</td><td>VR</td></tr><tr><td>Feedback de lo que se mueve y su efecto</td><td>VR</td></tr><tr><td>Botón principal con mayor jerarquía</td><td>VR</td></tr><tr><td>Lista de parámetros con el activo resaltado</td><td>VR</td></tr><tr><td>Posición inicial del módulo y recalibración rápida</td><td>VR</td></tr><tr><td>Aislamiento de participantes y audífonos</td><td>Todas</td></tr><tr><td>Reducir texto y destacar la postulación</td><td>Sitio web</td></tr><tr><td>Elegir individual o en pareja como primer paso</td><td>Sitio web</td></tr><tr><td>Subtítulos en el video</td><td>Video</td></tr></tbody>
         </table></div>
-
-        <div class="two-col" style="margin-top:var(--s-8)">
-          <div class="reveal"><h3>Próxima ronda</h3><ul class="bullets"><li>Implementar el tutorial, el feedback, la jerarquía del botón y los parámetros visibles en la VR.</li><li>Ajustar la posición inicial del módulo y la recalibración.</li><li>Simplificar el sitio web, destacar la postulación y poner primero la elección individual o en pareja.</li><li>Agregar subtítulos al video y definir el protocolo de audífonos y aislamiento.</li><li>Probar los 2 puzzles que faltan.</li><li>Repetir las pruebas con participantes que no hayan visto la experiencia.</li></ul></div>
-          <div class="reveal"><h3>Qué mediremos</h3><ul class="bullets"><li>Tiempo de cada puzzle, con la misma condición de aislamiento.</li><li>Tiempo que tarda el usuario en llegar al formulario del sitio.</li><li>Número de veces que se necesita recalibrar o pedir ayuda.</li><li>Si el participante puede explicar con sus palabras qué debe hacer antes de empezar el puzzle.</li></ul></div>
-        </div>
+        <p class="reveal"><a class="link-arrow" href="investigacion.html#resultados">Ver todas las mejoras y prioridades <span class="ar" aria-hidden="true">→</span></a></p>
       </div>
     </section>
 
-    <section class="section" id="fases">
+    <section class="section" id="sigue">
       <div class="wrap">
         <div class="sec-head reveal">
-        <p class="kicker">Fases</p>
-        <h2>Del concepto a las pruebas finales</h2>
-        <p class="lead">Se indica el estado de las fases confirmadas por el equipo.</p>
+        <p class="kicker">Qué sigue</p>
+        <h2>Próxima ronda</h2>
       </div>
-        <ol class="timeline">
-          <li class="reveal"><span class="tn">01</span><h3>Investigación</h3><p class="chips"><span class="chip done">Completado</span></p><p>Referentes, público y universo narrativo.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">02</span><h3>Concepto</h3><p>Premisa, progresión emocional y estructura en tres actos.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">03</span><h3>Narrativa</h3><p>Escritura del universo, los roles y la información que recibe cada participante.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">04</span><h3>Recorrido del participante</h3><p>Acciones, decisiones e interacciones de cada experiencia.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">05</span><h3>Prototipos</h3><p>Versiones tempranas de cada medio.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">06</span><h3>Pruebas con usuarios</h3><p class="chips"><span class="chip active">En curso</span></p><p>Observación de cómo entienden y recorren la experiencia las personas participantes.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">07</span><h3>Desarrollo web</h3><p>Construcción del componente web y sus interacciones previstas.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">08</span><h3>Secretos narrativos</h3><p>Diseño de las anomalías que recompensan la exploración, sin bloquear la experiencia.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">09</span><h3>Integración</h3><p>Conexión de las tres experiencias en un mismo recorrido.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-          <li class="reveal"><span class="tn">10</span><h3>Pruebas finales</h3><p>Verificación del conjunto antes de presentarlo.</p><figure class="media r-21x9 is-placeholder" data-placeholder="true" role="img" aria-label="Imagen pendiente de subir"><span class="ph-label">EVIDENCIA POR SUBIR</span></figure></li>
-        </ol>
-        <div class="cta-row"><a class="btn btn-ghost" href="galeria.html">Ver material del proceso</a><a class="btn btn-ghost" href="documentacion.html">Ver la documentación</a></div>
+        <ul class="bullets reveal">
+          <li>Implementar en la VR el tutorial, el feedback, la jerarquía del botón y los parámetros visibles, y ajustar la posición inicial del módulo y la recalibración.</li>
+          <li>Simplificar el sitio web, destacar la postulación y poner primero la elección individual o en pareja.</li>
+          <li>Agregar subtítulos al video y definir el protocolo de audífonos y aislamiento.</li>
+          <li>Probar los 2 puzzles que faltan y repetir las pruebas con participantes que no hayan visto la experiencia.</li>
+        </ul>
+        <p class="reveal"><strong>Qué mediremos:</strong> el tiempo de cada puzzle con la misma condición de aislamiento; el tiempo hasta llegar al formulario; cuántas veces se necesita recalibrar o pedir ayuda; y si el participante puede explicar con sus palabras qué debe hacer antes de empezar.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="investigacion.html">Ver la investigación completa →</a>
+          <a class="btn btn-ghost" href="galeria.html">Ver material del proceso →</a>
+          <a class="btn btn-ghost" href="documentacion.html">Ver la documentación →</a>
+        </div>
       </div>
     </section>
   </main>

@@ -8,6 +8,7 @@
  *   poster:   (video) imagen de portada, p. ej. "assets/video/trailer-poster.webp"
  *   alt:      (imagen) descripción útil para lectores de pantalla (obligatoria)
  *   title:    título corto
+ *   category: "Proceso" | "Prototipos" | "Making of"
  *   caption:  descripción opcional
  *   credit:   autoría / créditos
  *   ratio:    "16x9" (por defecto) | "4x5" | "1x1"
@@ -35,3 +36,12 @@ window.DISSONANCE_MEDIA = [
  *     poster: "assets/video/making-of-poster.webp", title: "Making of de DISSONANCE", credit: "Equipo DISSONANCE" };
  */
 window.DISSONANCE_MAKING_OF = null;
+
+/*
+ * Enlaces que aparecen solo cuando tienen una URL. Mientras valgan "" no se muestra nada.
+ *   videoIntro: video introductorio del Acto I (se muestra en la página Las experiencias).
+ *               Ejemplo: "https://www.youtube.com/watch?v=ID"
+ */
+window.DISSONANCE_LINKS = {
+  videoIntro: ""
+};

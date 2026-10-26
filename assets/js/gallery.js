@@ -73,6 +73,7 @@
     var ratio = DIMS[m.ratio] ? m.ratio : '16x9';
     var fig = el('figure', 'media r-' + ratio);
     fig.setAttribute('data-type', m.type === 'image' ? 'foto' : 'video');
+    fig.setAttribute('data-cat', m.category || 'Proceso');
     fig.setAttribute('data-full', m.src);
     fig.setAttribute('data-kind', m.type);
     if (m.poster) fig.setAttribute('data-poster', m.poster);
@@ -99,27 +100,29 @@
   });
 
   var figs = function () { return [].slice.call(gallery.querySelectorAll(':scope > figure')); };
-  var empty = document.getElementById('gallery-empty');
+  var material = document.getElementById('material');
   var filters = document.getElementById('filters');
   var total = figs().length;
-  if (total) {
-    if (empty) empty.hidden = true;
-    if (filters) filters.hidden = false;
-    gallery.hidden = false;
-  } else {
-    gallery.hidden = true;
-    return;
-  }
+  if (!total) return;
+  if (material) material.hidden = false;
 
-  /* ---------- Filtros ---------- */
-  var current = 'all';
-  if (filters) {
+  /* ---------- Filtros por categoría (desde 6 piezas) ---------- */
+  var CATS = ['Proceso', 'Prototipos', 'Making of'];
+  if (filters && total >= 6) {
+    filters.hidden = false;
+    ['Todo'].concat(CATS).forEach(function (c, i) {
+      var b = el('button', '', c);
+      b.type = 'button';
+      b.setAttribute('data-filter', i === 0 ? 'all' : c);
+      b.setAttribute('aria-pressed', String(i === 0));
+      filters.appendChild(b);
+    });
     filters.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-filter]');
       if (!b) return;
-      current = b.getAttribute('data-filter');
+      var cur = b.getAttribute('data-filter');
       [].forEach.call(filters.querySelectorAll('button'), function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-      figs().forEach(function (f) { f.hidden = current !== 'all' && f.getAttribute('data-type') !== current; });
+      figs().forEach(function (f) { f.hidden = cur !== 'all' && f.getAttribute('data-cat') !== cur; });
       var note = document.getElementById('filter-empty');
       if (note) note.hidden = figs().some(function (f) { return !f.hidden; });
     });
