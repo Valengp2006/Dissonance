@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documentación · DISSONANCE</title>
+  <meta name="description" content="Mini documentación de diseño y técnica de DISSONANCE.">
+  <meta name="theme-color" content="#04050a">
+  <meta property="og:title" content="Documentación · DISSONANCE">
+  <meta property="og:description" content="Mini documentación de diseño y técnica de DISSONANCE.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://valengp2006.github.io/Dissonance/paginas/documentacion.html">
+  <!-- TODO og:image: requiere una imagen real o diseñada y aprobada por el equipo -->
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body data-root="../">
+  <a class="skip btn btn-primary" href="#contenido">Saltar al contenido</a>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap hd-inner">
+      <a class="brand" href="../index.html" aria-label="DISSONANCE, inicio"><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke-width="1.4"><circle cx="11" cy="11" r="8.5"/><circle cx="13.5" cy="13" r="8.5"/></svg><span>DISSONANCE</span></a>
+      <nav class="nav-desktop" aria-label="Principal">
+        <a href="proyecto.html">El proyecto</a>
+        <a href="experiencias.html">Las experiencias</a>
+        <a href="galeria.html">Galería</a>
+        <a href="proceso.html">Proceso</a>
+        <a href="documentacion.html" aria-current="page">Documentación</a>
+        <a href="equipo.html">Equipo</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-panel">Menú</button>
+    </div>
+  </header>
+
+  <div id="menu-panel" class="menu-panel" role="dialog" aria-modal="true" aria-label="Menú de navegación" hidden>
+    <div class="menu-top">
+      <a class="brand" href="../index.html" aria-label="DISSONANCE, inicio"><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke-width="1.4"><circle cx="11" cy="11" r="8.5"/><circle cx="13.5" cy="13" r="8.5"/></svg><span>DISSONANCE</span></a>
+      <button class="menu-btn menu-close" type="button">Cerrar</button>
+    </div>
+    <nav aria-label="Principal">
+      <ol>
+        <li><a href="proyecto.html"><span class="n">01</span>El proyecto</a></li>
+        <li><a href="experiencias.html"><span class="n">02</span>Las experiencias</a></li>
+        <li><a href="galeria.html"><span class="n">03</span>Galería</a></li>
+        <li><a href="proceso.html"><span class="n">04</span>Proceso</a></li>
+        <li><a href="documentacion.html" aria-current="page"><span class="n">05</span>Documentación</a></li>
+        <li><a href="equipo.html"><span class="n">06</span>Equipo</a></li>
+        <li><a href="contacto.html"><span class="n">07</span>Contacto</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <main id="contenido">
+    <!-- Anomalía de esta página: subrayado desfasado bajo el H1 (regla 4.5 de DESIGN.md) -->
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="kicker">05 / Documentación</p>
+        <h1>Diseño y técnica en breve</h1><span class="h1-rule" aria-hidden="true"></span>
+        <p class="lead reveal">Qué decisiones se tomaron y cómo se estructura el proyecto. Lo que aún no está confirmado se indica como pendiente.</p>
+      </div>
+    </header>
+
+    <section class="section tight">
+      <div class="wrap doc-layout">
+        <aside class="toc" aria-label="En esta página">
+          <p class="kicker">En esta página</p>
+          <ol>
+<li><a href="#concepto">Concepto de diseño</a></li>
+<li><a href="#progresion">Progresión emocional y visual</a></li>
+<li><a href="#visual">Lenguaje visual</a></li>
+<li><a href="#sonido">Sonido</a></li>
+<li><a href="#arquitectura">Arquitectura de la experiencia</a></li>
+<li><a href="#cooperativo">Acto III: diseño cooperativo asimétrico</a></li>
+<li><a href="#web">Este sitio web</a></li>
+<li><a href="#galeria-doc">Cómo añadir material a la galería</a></li>
+<li><a href="#pendiente">Datos por documentar</a></li>
+<li><a href="#creditos">Créditos</a></li>
+          </ol>
+        </aside>
+        <details class="toc-m">
+          <summary>En esta página</summary>
+          <ol>
+<li><a href="#concepto">Concepto de diseño</a></li>
+<li><a href="#progresion">Progresión emocional y visual</a></li>
+<li><a href="#visual">Lenguaje visual</a></li>
+<li><a href="#sonido">Sonido</a></li>
+<li><a href="#arquitectura">Arquitectura de la experiencia</a></li>
+<li><a href="#cooperativo">Acto III: diseño cooperativo asimétrico</a></li>
+<li><a href="#web">Este sitio web</a></li>
+<li><a href="#galeria-doc">Cómo añadir material a la galería</a></li>
+<li><a href="#pendiente">Datos por documentar</a></li>
+<li><a href="#creditos">Créditos</a></li>
+          </ol>
+        </details>
+        <div class="doc-body">
+          <section class="doc-sec" id="concepto"><h2>Concepto de diseño</h2>
+<p>DISSONANCE se diseña alrededor de una pregunta: ¿cómo hacer que el participante experimente la incertidumbre desde adentro y no la observe desde afuera? Las decisiones de diseño responden a ella.</p>
+<div class="scroll-x" tabindex="0"><table>
+<thead><tr><th>Principio</th><th>Qué significa en el diseño</th></tr></thead>
+<tbody>
+<tr><td>Participar, no mirar</td><td>Cada medio pide una acción: decidir, investigar, comunicarse y cooperar.</td></tr>
+<tr><td>Información incompleta</td><td>No se explica todo de inmediato; el misterio se conserva.</td></tr>
+<tr><td>Contradicción</td><td>Lo que indica el sistema, lo que dice la organización y lo que perciben los participantes no siempre coincide.</td></tr>
+<tr><td>Perspectivas asimétricas</td><td>En el Acto III cada participante dispone de información y responsabilidades distintas.</td></tr>
+<tr><td>Tensión gradual</td><td>La inquietud crece de forma progresiva; no se depende de sobresaltos ni violencia explícita.</td></tr>
+</tbody></table></div></section>
+          <section class="doc-sec" id="progresion"><h2>Progresión emocional y visual</h2>
+<p>La experiencia está pensada como un recorrido en el que lo emocional y lo visual avanzan juntos.</p>
+<p class="mono" style="color:var(--text-2)">Emocional</p>
+<ol class="steps"><li>Fascinación</li><li>Curiosidad</li><li>Asombro</li><li>Inquietud</li><li>Incertidumbre</li><li>Miedo</li><li>Terror cósmico</li></ol>
+<p class="mono" style="color:var(--text-2)">Visual</p>
+<ol class="steps"><li>Corporativo</li><li>Tecnológico / científico</li><li>Extraño</li><li>Oscuro</li><li>Cósmico</li></ol></section>
+          <section class="doc-sec" id="visual"><h2>Lenguaje visual</h2>
+<p>El proyecto maneja dos lenguajes visuales que no se mezclan por defecto:</p>
+<div class="scroll-x" tabindex="0"><table>
+<thead><tr><th></th><th>Sitio público (este sitio)</th><th>Sitio ficticio de Atlas (Acto II)</th></tr></thead>
+<tbody>
+<tr><td>Propósito</td><td>Presentar el proyecto real, su equipo y su proceso.</td><td>Ser una pieza dentro de la narrativa.</td></tr>
+<tr><td>Estética</td><td>Contemporánea, editorial y cinematográfica sobre espacio profundo.</td><td>Interfaz aeroespacial/científica de 1982–1984.</td></tr>
+<tr><td>Tono</td><td>Atmosférico pero siempre legible.</td><td>Institucional, con anomalías que aparecen en los archivos.</td></tr>
+</tbody></table></div>
+<h3>Decisiones del sitio público</h3>
+<ul class="bullets">
+<li><strong>Color:</strong> fondo azul-índigo muy oscuro, texto en blanco cálido y un acento frío para enlaces y foco. Los tokens viven como variables CSS en <code>assets/css/styles.css</code>.</li>
+<li><strong>Tipografía:</strong> Instrument Serif para titulares, Inter para texto y JetBrains Mono solo para etiquetas pequeñas. Son propuestas pendientes de aprobación; mientras no estén los archivos se usan fuentes del sistema (ver <code>assets/fonts/README.md</code>).</li>
+<li><strong>Atmósfera:</strong> campo de estrellas en canvas, grano y viñeta muy sutiles, y una órbita en el hero.</li>
+<li><strong>Movimiento:</strong> mínimo y no bloqueante; todo se desactiva con <code>prefers-reduced-motion</code>.</li>
+<li><strong>Se evita:</strong> neón, glitches aleatorios, HUD decorativo y bajo contraste.</li>
+</ul>
+<h3>El motivo de la disonancia</h3>
+<p>Hay una sola idea visual de «anomalía»: dos formas que deberían coincidir y no coinciden por unos pocos píxeles. Es el glifo del logotipo (dos anillos desfasados), el fantasma del titular al cargar la portada y un detalle por página. El rojo solo se usa para esto; nunca en botones, enlaces ni párrafos.</p>
+<div class="callout"><p>Logotipo, paleta y tipografías definitivas del proyecto: pendientes de aprobación del equipo. El glifo de dos anillos es una identidad provisional del sitio.</p></div></section>
+          <section class="doc-sec" id="sonido"><h2>Sonido</h2>
+<p>El diseño sonoro construye atmósferas y tensión en las tres experiencias. En el Acto III, el sonido forma parte de las alteraciones perceptivas. El detalle de la banda sonora, los recursos y sus créditos se documentará aquí cuando el equipo lo entregue.</p></section>
+          <section class="doc-sec" id="arquitectura"><h2>Arquitectura de la experiencia</h2>
+<p>Las tres experiencias forman una secuencia: el Acto I conduce al II y este prepara el III.</p>
+<div class="scroll-x" tabindex="0"><table>
+<thead><tr><th>Acto</th><th>Medio</th><th>Quién participa</th><th>Interacción principal</th></tr></thead>
+<tbody>
+<tr><td>I · DECIDIR</td><td>Video interactivo</td><td>1 participante</td><td>Decisiones en puntos del video</td></tr>
+<tr><td>II · BUSCAR</td><td>Sitio web ficticio</td><td>1 participante</td><td>Lectura de documentos y exploración libre</td></tr>
+<tr><td>III · SOBREVIVIR</td><td>VR + estación PC</td><td>2 participantes (astronauta y operador terrestre)</td><td>Comunicación y tareas por rol</td></tr>
+</tbody></table></div>
+<p class="note">La tecnología concreta de cada acto no está documentada todavía (ver «Datos por documentar»).</p></section>
+          <section class="doc-sec" id="cooperativo"><h2>Acto III: diseño cooperativo asimétrico</h2>
+<div class="two">
+<div><h3>Astronauta</h3><p>Vive la misión en realidad virtual.</p></div>
+<div><h3>Operador terrestre</h3><p>Trabaja en PC desde una estación de control: monitoriza sistemas, interpreta datos y se comunica con el astronauta.</p></div>
+</div>
+<p>Elementos centrales: información asimétrica, tareas diferenciadas, comunicación retrasada o interrumpida, respuestas del sistema que pueden contradecir lo observado y pérdida progresiva de control. Ninguno de los dos puede asumir que el otro ve o sabe lo mismo.</p></section>
+          <section class="doc-sec" id="web"><h2>Este sitio web</h2>
+<ul class="bullets">
+<li><strong>Tecnología:</strong> HTML, CSS y JavaScript estáticos, sin framework ni dependencias.</li>
+<li><strong>Estructura:</strong> <code>index.html</code> en la raíz; el resto de páginas en <code>paginas/</code>; estilos, scripts, imágenes, video y fuentes en <code>assets/</code>.</li>
+<li><strong>Adaptable:</strong> diseñado para móvil, tableta y escritorio.</li>
+<li><strong>Accesibilidad:</strong> HTML semántico, enlace para saltar al contenido, foco visible, navegación completa por teclado (menú, filtros y visor de galería) y respeto a movimiento reducido.</li>
+<li><strong>Rendimiento:</strong> sin librerías externas; imágenes diferidas.</li>
+</ul></section>
+          <section class="doc-sec" id="galeria-doc"><h2>Cómo añadir material a la galería</h2>
+<ol class="bullets">
+<li>Guarda la imagen (WebP o AVIF, máximo 1600 px de ancho) en <code>assets/images/galeria/</code>, o el video en <code>assets/video/</code>.</li>
+<li>Agrega una entrada en <code>assets/js/media-data.js</code>.</li>
+<li>Haz commit y push a <code>main</code>.</li>
+</ol>
+<div class="codeblock"><pre tabindex="0"><code id="snippet-media">{ type: "image",
+  src: "assets/images/galeria/storyboard-01.webp",
+  alt: "Storyboard del Acto I",
+  title: "Storyboard de DECIDIR",
+  caption: "Primera versión.",
+  credit: "Equipo DISSONANCE",
+  ratio: "16x9" },</code></pre><button type="button" class="copy" data-copy="snippet-media">Copiar</button></div>
+<p>El texto alternativo (<code>alt</code>) es obligatorio en cada imagen. Los filtros, el visor y la cuadrícula se generan solos.</p></section>
+          <section class="doc-sec" id="pendiente"><h2>Datos por documentar</h2>
+<div class="callout"><p>Estos datos no deben asumirse hasta que el equipo los confirme.</p></div>
+<ul class="bullets">
+<li>Motor o herramienta de desarrollo de la VR y la estación PC.</li>
+<li>Dispositivos VR utilizados.</li>
+<li>Arquitectura de comunicación entre los dos participantes.</li>
+<li>Herramientas de edición e interactividad del video.</li>
+<li>Herramientas y flujo de producción de audio.</li>
+<li>Comportamiento exacto de cada decisión del video.</li>
+</ul></section>
+          <section class="doc-sec" id="creditos"><h2>Créditos</h2>
+<p style="color:var(--text-3)">Créditos pendientes de completar por el equipo: imágenes, música, sonido y tipografías.</p>
+<p class="note">Fuentes propuestas, aún no incorporadas: Instrument Serif, Inter y JetBrains Mono (licencia SIL OFL).</p></section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap ft-grid">
+      <div>
+        <a class="brand" href="../index.html" aria-label="DISSONANCE, inicio"><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke-width="1.4"><circle cx="11" cy="11" r="8.5"/><circle cx="13.5" cy="13" r="8.5"/></svg><span>DISSONANCE</span></a>
+        <p>Proyecto interdisciplinar de narrativa interactiva e inmersiva.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <p class="ft-title">Navegación</p>
+        <div class="ft-nav">
+          <a href="proyecto.html">El proyecto</a>
+          <a href="experiencias.html">Las experiencias</a>
+          <a href="galeria.html">Galería</a>
+          <a href="proceso.html">Proceso</a>
+          <a href="documentacion.html">Documentación</a>
+          <a href="equipo.html">Equipo</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </nav>
+      <div>
+        <p class="ft-title">Aviso</p>
+        <p>Atlas Corporation y El Apagón son elementos ficticios de la narrativa.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
