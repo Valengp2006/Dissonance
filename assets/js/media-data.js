@@ -19,3 +19,19 @@
  */
 window.DISSONANCE_MEDIA = [
 ];
+
+/*
+ * Video del making of (sección «Detrás de cámaras» de la galería).
+ * Mientras valga null se muestra un recuadro «VIDEO POR SUBIR». Guarda el archivo en assets/video/.
+ *
+ *   type:   "video" (archivo MP4/WebM) | "embed" (URL de YouTube/Vimeo con permiso de uso)
+ *   src:    "assets/video/making-of.mp4"  (o URL de embed, p. ej. "https://www.youtube.com/embed/ID")
+ *   poster: "assets/video/making-of-poster.webp"  (portada, solo para type "video")
+ *   title:  "Making of de DISSONANCE"
+ *   credit: autoría / créditos
+ *
+ * Ejemplo:
+ *   window.DISSONANCE_MAKING_OF = { type: "video", src: "assets/video/making-of.mp4",
+ *     poster: "assets/video/making-of-poster.webp", title: "Making of de DISSONANCE", credit: "Equipo DISSONANCE" };
+ */
+window.DISSONANCE_MAKING_OF = null;

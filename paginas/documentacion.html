@@ -133,7 +133,7 @@
 <li><strong>Movimiento:</strong> mínimo y no bloqueante; todo se desactiva con <code>prefers-reduced-motion</code>.</li>
 <li><strong>Se evita:</strong> neón, glitches aleatorios, HUD decorativo y bajo contraste.</li>
 </ul>
-<h3>El motivo de la disonancia</h3>
+<h3>El motivo Dissonance</h3>
 <p>Hay una sola idea visual de «anomalía»: dos formas que deberían coincidir y no coinciden por unos pocos píxeles. Es el glifo del logotipo (dos anillos desfasados), el fantasma del titular al cargar la portada y un detalle por página. El rojo solo se usa para esto; nunca en botones, enlaces ni párrafos.</p>
 <div class="callout"><p>Logotipo, paleta y tipografías definitivas del proyecto: pendientes de aprobación del equipo. El glifo de dos anillos es una identidad provisional del sitio.</p></div></section>
           <section class="doc-sec" id="sonido"><h2>Sonido</h2>
@@ -175,7 +175,16 @@
   caption: "Primera versión.",
   credit: "Equipo DISSONANCE",
   ratio: "16x9" },</code></pre><button type="button" class="copy" data-copy="snippet-media">Copiar</button></div>
-<p>El texto alternativo (<code>alt</code>) es obligatorio en cada imagen. Los filtros, el visor y la cuadrícula se generan solos.</p></section>
+<p>El texto alternativo (<code>alt</code>) es obligatorio en cada imagen. Los filtros, el visor y la cuadrícula se generan solos.</p>
+<h3>Video del making of</h3>
+<p>Guarda el video en <code>assets/video/</code> (MP4 o WebM) y su portada en la misma carpeta. Después completa <code>window.DISSONANCE_MAKING_OF</code> en <code>assets/js/media-data.js</code>. Si el video está en YouTube o Vimeo, usa <code>type: "embed"</code> con la URL de incrustación.</p>
+<div class="codeblock"><pre tabindex="0"><code id="snippet-making">window.DISSONANCE_MAKING_OF = {
+  type: "video",
+  src: "assets/video/making-of.mp4",
+  poster: "assets/video/making-of-poster.webp",
+  title: "Making of de DISSONANCE",
+  credit: "Equipo DISSONANCE"
+};</code></pre><button type="button" class="copy" data-copy="snippet-making">Copiar</button></div></section>
           <section class="doc-sec" id="pendiente"><h2>Datos por documentar</h2>
 <div class="callout"><p>Estos datos no deben asumirse hasta que el equipo los confirme.</p></div>
 <ul class="bullets">

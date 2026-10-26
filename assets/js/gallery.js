@@ -43,6 +43,29 @@
     }
   }
 
+  /* ---------- Making of ---------- */
+  var mo = window.DISSONANCE_MAKING_OF;
+  var moBox = document.getElementById('making-of-media');
+  if (moBox && mo && mo.src) {
+    var abs = function (u) { return u && !/^([a-z]+:|\/)/i.test(u) ? ROOT + u : u; };
+    var fig = el('figure', 'media r-16x9');
+    var node;
+    if (mo.type === 'embed') {
+      node = el('iframe'); node.src = mo.src; node.title = mo.title || 'Making of';
+      node.allow = 'fullscreen; picture-in-picture'; node.allowFullscreen = true; node.loading = 'lazy';
+    } else {
+      node = el('video'); node.src = abs(mo.src); node.controls = true; node.preload = 'metadata';
+      node.setAttribute('playsinline', '');
+      if (mo.poster) node.poster = abs(mo.poster);
+      node.setAttribute('aria-label', mo.title || 'Making of');
+    }
+    fig.appendChild(node);
+    moBox.textContent = '';
+    moBox.appendChild(fig);
+    var capEl = document.getElementById('making-of-cap');
+    if (capEl) capEl.textContent = [mo.title, mo.credit ? 'Crédito: ' + mo.credit : ''].filter(Boolean).join(' — ');
+  }
+
   if (!gallery) return;
 
   /* ---------- Render de la cuadrícula desde media-data.js ---------- */

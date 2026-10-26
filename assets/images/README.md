@@ -8,7 +8,7 @@ Aquí van las imágenes reales del proyecto. **No uses imágenes de stock ni gen
 | `actos/` | Capturas aprobadas de DECIDIR, BUSCAR y SOBREVIVIR | 16:9 |
 | `equipo/` | Retratos del equipo (con autorización) | 4:5 |
 | `proceso/` | Evidencias del proceso: moodboards, storyboards, prototipos | 16:9 |
-| `../video/` | Videos (MP4/WebM) y sus imágenes de portada | 16:9 |
+| `../video/` | Videos (MP4/WebM), incluido el making of, y sus portadas | 16:9 |
 
 ## Recomendaciones
 - Formato **WebP** o **AVIF** (JPG si no hay alternativa). Máximo **1600 px** de ancho.
