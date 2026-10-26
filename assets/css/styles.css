@@ -414,3 +414,11 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
   .pair p::before { display: none !important; }
   .pair-h { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-8); padding-bottom: var(--s-3); font: 500 var(--fs-label) var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); }
 }
+
+.res { border-top: 1px solid var(--line); padding-block: var(--s-7); }
+.res h3 { margin-bottom: var(--s-3); }
+.res .lead { margin-bottom: var(--s-6); }
+.res-cols { display: grid; gap: var(--s-6); grid-template-columns: 1fr; }
+@media (min-width: 900px) { .res-cols { grid-template-columns: repeat(2, 1fr); gap: var(--s-8); } .res-cols .res-ok { grid-column: 1 / -1; } }
+.res-cols h4 { font: 500 var(--fs-label) var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); margin-bottom: var(--s-4); }
+.timeline .chips { margin: 0 0 var(--s-3); }
