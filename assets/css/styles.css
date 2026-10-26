@@ -339,9 +339,6 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
 .two > div { border-top: 1px solid var(--line); padding-top: var(--s-4); }
 .two h3 { margin-top: 0; }
 
-/* Contacto */
-.contact-state { max-width: 40rem; border-top: 1px solid var(--line); padding-top: var(--s-6); }
-.contact-big { font: 400 var(--fs-h2)/1.1 var(--font-display); }
 
 /* ---------- Footer ---------- */
 .site-footer { margin-top: var(--section-y); padding: var(--s-9) 0 var(--s-7); border-top: 1px solid var(--line); background: var(--space-950); position: relative; z-index: 2; }

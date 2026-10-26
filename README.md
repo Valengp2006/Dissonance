@@ -15,7 +15,6 @@ paginas/                   Resto de páginas
   proceso.html             Proceso e investigación
   documentacion.html       Documentación de diseño y técnica
   equipo.html              Equipo
-  contacto.html            Contacto
 assets/
   css/styles.css           Estilos y tokens de diseño (variables en :root)
   js/script.js             Menú, estrellas, scroll, copiar
