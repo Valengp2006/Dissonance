@@ -78,8 +78,6 @@
 <li><a href="#arquitectura">Arquitectura de la experiencia</a></li>
 <li><a href="#cooperativo">Acto III: diseño cooperativo asimétrico</a></li>
 <li><a href="#web">Este sitio web</a></li>
-<li><a href="#galeria-doc">Cómo añadir material a la galería</a></li>
-<li><a href="#pendiente">Datos por documentar</a></li>
 <li><a href="#creditos">Créditos</a></li>
           </ol>
         </aside>
@@ -93,8 +91,6 @@
 <li><a href="#arquitectura">Arquitectura de la experiencia</a></li>
 <li><a href="#cooperativo">Acto III: diseño cooperativo asimétrico</a></li>
 <li><a href="#web">Este sitio web</a></li>
-<li><a href="#galeria-doc">Cómo añadir material a la galería</a></li>
-<li><a href="#pendiente">Datos por documentar</a></li>
 <li><a href="#creditos">Créditos</a></li>
           </ol>
         </details>
@@ -147,7 +143,7 @@
 <tr><td>II · BUSCAR</td><td>Sitio web ficticio</td><td>1 participante</td><td>Lectura de documentos y exploración libre</td></tr>
 <tr><td>III · SOBREVIVIR</td><td>VR + estación PC</td><td>2 participantes (astronauta y operador terrestre)</td><td>Comunicación y tareas por rol</td></tr>
 </tbody></table></div>
-<p class="note">La tecnología concreta de cada acto no está documentada todavía (ver «Datos por documentar»).</p></section>
+</section>
           <section class="doc-sec" id="cooperativo"><h2>Acto III: diseño cooperativo asimétrico</h2>
 <div class="two">
 <div><h3>Astronauta</h3><p>Vive la misión en realidad virtual.</p></div>
@@ -161,39 +157,6 @@
 <li><strong>Adaptable:</strong> diseñado para móvil, tableta y escritorio.</li>
 <li><strong>Accesibilidad:</strong> HTML semántico, enlace para saltar al contenido, foco visible, navegación completa por teclado (menú, filtros y visor de galería) y respeto a movimiento reducido.</li>
 <li><strong>Rendimiento:</strong> sin librerías externas; imágenes diferidas.</li>
-</ul></section>
-          <section class="doc-sec" id="galeria-doc"><h2>Cómo añadir material a la galería</h2>
-<ol class="bullets">
-<li>Guarda la imagen (WebP o AVIF, máximo 1600 px de ancho) en <code>assets/images/galeria/</code>, o el video en <code>assets/video/</code>.</li>
-<li>Agrega una entrada en <code>assets/js/media-data.js</code>.</li>
-<li>Haz commit y push a <code>main</code>.</li>
-</ol>
-<div class="codeblock"><pre tabindex="0"><code id="snippet-media">{ type: "image",
-  src: "assets/images/galeria/storyboard-01.webp",
-  alt: "Storyboard del Acto I",
-  title: "Storyboard de DECIDIR",
-  caption: "Primera versión.",
-  credit: "Equipo DISSONANCE",
-  ratio: "16x9" },</code></pre><button type="button" class="copy" data-copy="snippet-media">Copiar</button></div>
-<p>El texto alternativo (<code>alt</code>) es obligatorio en cada imagen. Los filtros, el visor y la cuadrícula se generan solos.</p>
-<h3>Video del making of</h3>
-<p>Guarda el video en <code>assets/video/</code> (MP4 o WebM) y su portada en la misma carpeta. Después completa <code>window.DISSONANCE_MAKING_OF</code> en <code>assets/js/media-data.js</code>. Si el video está en YouTube o Vimeo, usa <code>type: "embed"</code> con la URL de incrustación.</p>
-<div class="codeblock"><pre tabindex="0"><code id="snippet-making">window.DISSONANCE_MAKING_OF = {
-  type: "video",
-  src: "assets/video/making-of.mp4",
-  poster: "assets/video/making-of-poster.webp",
-  title: "Making of de DISSONANCE",
-  credit: "Equipo DISSONANCE"
-};</code></pre><button type="button" class="copy" data-copy="snippet-making">Copiar</button></div></section>
-          <section class="doc-sec" id="pendiente"><h2>Datos por documentar</h2>
-<div class="callout"><p>Estos datos no deben asumirse hasta que el equipo los confirme.</p></div>
-<ul class="bullets">
-<li>Motor o herramienta de desarrollo de la VR y la estación PC.</li>
-<li>Dispositivos VR utilizados.</li>
-<li>Arquitectura de comunicación entre los dos participantes.</li>
-<li>Herramientas de edición e interactividad del video.</li>
-<li>Herramientas y flujo de producción de audio.</li>
-<li>Comportamiento exacto de cada decisión del video.</li>
 </ul></section>
           <section class="doc-sec" id="creditos"><h2>Créditos</h2>
 <p style="color:var(--text-3)">Créditos pendientes de completar por el equipo: imágenes, música, sonido y tipografías.</p>
