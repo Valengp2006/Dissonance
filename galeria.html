@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería · DISSONANCE</title>
+  <meta name="description" content="Fotos y videos de la experiencia DISSONANCE y de su desarrollo.">
+  <meta name="theme-color" content="#07080c">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="titlebar">
+      <span class="tb-icon" aria-hidden="true"></span>
+      <span class="tb-title">DISSONANCE — Galería</span>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menú</button>
+    </div>
+    <nav id="nav" class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="proyecto.html">El proyecto</a>
+      <a href="experiencias.html">Las experiencias</a>
+      <a href="galeria.html" aria-current="page">Galería</a>
+      <a href="documentacion.html">Documentación</a>
+      <a href="proceso.html">Proceso</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main id="contenido">
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Galería</p>
+        <h1>Fotos y videos</h1>
+        <p class="lede">Material de la experiencia y de su proceso de desarrollo.</p>
+      </div>
+    </header>
+    <section class="section">
+      <div class="wrap">
+        <div class="filters" role="group" aria-label="Filtrar material">
+          <button type="button" data-filter="all" aria-pressed="true">Todo</button>
+          <button type="button" data-filter="image" aria-pressed="false">Fotos</button>
+          <button type="button" data-filter="video" aria-pressed="false">Videos</button>
+        </div>
+        <p id="gallery-note" class="aside" hidden></p>
+        <ul id="gallery-grid" class="media-grid" aria-live="polite"></ul>
+      </div>
+    </section>
+
+    <dialog id="viewer" class="viewer" aria-label="Visor de material">
+      <button type="button" class="viewer-close" aria-label="Cerrar">✕</button>
+      <div id="viewer-stage"></div>
+      <p id="viewer-caption" class="viewer-caption"></p>
+    </dialog>
+  </main>
+  <footer class="site-footer">
+    <p class="small">Atlas Corporation y El Apagón son elementos ficticios de la narrativa. Créditos de imágenes, música, sonido y tipografías externos: por completar.</p>
+    <div class="taskbar">
+      <a class="tb-start" href="index.html"><span class="tb-icon" aria-hidden="true"></span>DISSONANCE</a>
+      <span class="tb-task">Galería</span>
+      <span class="tb-clock" id="clock" aria-hidden="true"></span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="media/media-data.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>
