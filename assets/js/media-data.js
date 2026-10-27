@@ -38,7 +38,7 @@ window.DISSONANCE_MEDIA = [
 window.DISSONANCE_MAKING_OF = {
   type: "embed",
   src: "https://www.youtube-nocookie.com/embed/lv_F3MA3iHY",
-  title: "Making of de DISSONANCE"
+  title: "Making of de DISSONANCE (versión temporal)"
 };
 
 /*
