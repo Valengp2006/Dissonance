@@ -35,7 +35,11 @@ window.DISSONANCE_MEDIA = [
  *   window.DISSONANCE_MAKING_OF = { type: "video", src: "assets/video/making-of.mp4",
  *     poster: "assets/video/making-of-poster.webp", title: "Making of de DISSONANCE", credit: "Equipo DISSONANCE" };
  */
-window.DISSONANCE_MAKING_OF = null;
+window.DISSONANCE_MAKING_OF = {
+  type: "embed",
+  src: "https://www.youtube-nocookie.com/embed/lv_F3MA3iHY",
+  title: "Making of de DISSONANCE"
+};
 
 /*
  * Enlaces que aparecen solo cuando tienen una URL. Mientras valgan "" no se muestra nada.
