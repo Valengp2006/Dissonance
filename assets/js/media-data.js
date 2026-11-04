@@ -36,7 +36,18 @@ window.DISSONANCE_MEDIA = [
     title: "Reunión del equipo", caption: "Reunión en un salón de computadores.", category: "Proceso" },
   { type: "image", src: "assets/images/galeria/reunion-equipo-02.webp",
     alt: "Reunión del equipo desde otro ángulo: personas sentadas en círculo en un salón con computadores, con un perro tumbado en el suelo.",
-    title: "Reunión del equipo", caption: "Otra vista de la reunión.", category: "Proceso" },
+    title: "Reunión del equipo", caption: "Otra vista de la reunión.", category: "Proceso" },  { type: "video", src: "assets/video/prueba-video-observadores.mp4", poster: "assets/images/galeria/prueba-video-observadores-poster.webp",
+    title: "Pruebas del video interactivo", caption: "Participantes en un salón de computadores mientras el video se reproduce en un monitor. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/prueba-vr-visor-01.mp4", poster: "assets/images/galeria/prueba-vr-visor-01-poster.webp",
+    title: "Primera prueba con visor de VR", caption: "Una persona con el visor de realidad virtual puesto, al aire libre. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/prueba-vr-visor-02.mp4", poster: "assets/images/galeria/prueba-vr-visor-02-poster.webp",
+    title: "Prueba con visor de VR conectado", caption: "Una persona con el visor de VR y el cable conectado durante la prueba. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/prueba-vr-reaccion.mp4", poster: "assets/images/galeria/prueba-vr-reaccion-poster.webp",
+    title: "Reacción durante la prueba de VR", caption: "Una persona con el visor de VR puesto reacciona mientras el equipo observa. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/prueba-sitio-atlas-01.mp4", poster: "assets/images/galeria/prueba-sitio-atlas-01-poster.webp",
+    title: "Prueba del sitio web de Atlas", caption: "Observación de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/prueba-sitio-atlas-02.mp4", poster: "assets/images/galeria/prueba-sitio-atlas-02-poster.webp",
+    title: "Prueba del sitio de Atlas en primer plano", caption: "Detalle de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },
 ];
 
 /*
