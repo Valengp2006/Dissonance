@@ -19,6 +19,24 @@
  *     title: "Storyboard de DECIDIR", caption: "Primera versión.", credit: "Equipo DISSONANCE", ratio: "16x9" },
  */
 window.DISSONANCE_MEDIA = [
+  { type: "image", src: "assets/images/galeria/pruebas-vr-visor.webp",
+    alt: "Una persona con un visor de realidad virtual puesto, de pie junto a una mesa al aire libre donde otra persona usa un portátil.",
+    title: "Pruebas con realidad virtual", caption: "Sesión de pruebas al aire libre con un visor de VR.", category: "Prototipos" },
+  { type: "image", src: "assets/images/galeria/pruebas-audifonos.webp",
+    alt: "Una persona con audífonos sentada frente a un portátil, mientras otra se inclina junto a ella para mirar.",
+    title: "Pruebas con audífonos", caption: "Observación de una sesión de pruebas.", category: "Prototipos" },
+  { type: "image", src: "assets/images/galeria/pruebas-sitio-atlas.webp",
+    alt: "Dos personas frente a un portátil que muestra la página de inicio del sitio de Atlas, con otras personas trabajando al fondo.",
+    title: "Pruebas del sitio web de Atlas", caption: "Primeras pruebas del sitio del Acto II.", category: "Prototipos" },
+  { type: "image", src: "assets/images/galeria/pruebas-portatil-video.webp",
+    alt: "Una persona frente a un portátil que reproduce un video, con dos personas más junto a la mesa.",
+    title: "Sesión de pruebas frente al portátil", caption: "Primeras pruebas con participantes.", category: "Prototipos" },
+  { type: "image", src: "assets/images/galeria/reunion-equipo-01.webp",
+    alt: "Varias personas sentadas en círculo en un salón con computadores y un tablero blanco, durante una reunión.",
+    title: "Reunión del equipo", caption: "Reunión en un salón de computadores.", category: "Proceso" },
+  { type: "image", src: "assets/images/galeria/reunion-equipo-02.webp",
+    alt: "Reunión del equipo desde otro ángulo: personas sentadas en círculo en un salón con computadores, con un perro tumbado en el suelo.",
+    title: "Reunión del equipo", caption: "Otra vista de la reunión.", category: "Proceso" },
 ];
 
 /*
