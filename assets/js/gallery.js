@@ -108,9 +108,11 @@
 
   /* ---------- Filtros por categoría (desde 6 piezas) ---------- */
   var CATS = ['Proceso', 'Prototipos', 'Making of'];
-  if (filters && total >= 6) {
+  /* solo se ofrecen las categorías que tienen piezas (el video del making of va en su propia sección) */
+  var present = CATS.filter(function (c) { return figs().some(function (f) { return f.getAttribute('data-cat') === c; }); });
+  if (filters && total >= 6 && present.length > 1) {
     filters.hidden = false;
-    ['Todo'].concat(CATS).forEach(function (c, i) {
+    ['Todo'].concat(present).forEach(function (c, i) {
       var b = el('button', '', c);
       b.type = 'button';
       b.setAttribute('data-filter', i === 0 ? 'all' : c);
