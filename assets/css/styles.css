@@ -82,9 +82,7 @@ em { font-style: italic; }
 .site-header.scrolled { background: rgba(4, 5, 10, .72); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom-color: var(--line); }
 .hd-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: var(--s-5); }
 .brand { display: inline-flex; align-items: center; gap: .75rem; text-decoration: none; font: 600 .875rem var(--font-body); letter-spacing: .22em; }
-.glyph { width: 24px; height: 24px; flex: none; }
-.glyph circle:first-child { stroke: var(--text); }
-.glyph circle:last-child { stroke: var(--alert); }
+.glyph { height: 22px; width: auto; aspect-ratio: 308 / 210; flex: none; color: var(--text); }
 .nav-desktop { display: none; align-items: center; gap: clamp(1rem, 2vw, 1.75rem); }
 .nav-desktop a:not(.btn) { font: 500 .9375rem var(--font-body); color: var(--text-2); text-decoration: none; padding-block: .5rem; text-underline-offset: 8px; }
 .nav-desktop a:not(.btn):hover { color: var(--text); }
@@ -185,7 +183,7 @@ em { font-style: italic; }
 
 /* ---------- Vistazo galería / estado vacío ---------- */
 .empty { display: flex; flex-direction: column; align-items: center; text-align: center; padding: var(--s-9) var(--s-5); border: 1px dashed var(--line-strong); border-radius: var(--radius-m); }
-.empty .glyph { width: 48px; height: 48px; margin-bottom: var(--s-5); }
+.empty .glyph { height: 48px; margin-bottom: var(--s-5); }
 .empty h2, .empty h3 { font-size: var(--fs-h3); }
 .empty p { margin: var(--s-3) auto 0; max-width: 46ch; }
 .peek { display: grid; gap: var(--s-4); grid-template-columns: 1fr; }
@@ -502,5 +500,5 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
 
 /* Equipo: monogramas */
 .monogram { display: grid; place-items: center; position: relative; background: radial-gradient(ellipse at 30% 20%, rgba(70, 100, 170, .18), transparent 60%), var(--space-800); border: 1px solid var(--line); }
-.monogram .glyph { position: absolute; width: 62%; height: auto; aspect-ratio: 1; opacity: .35; }
+.monogram .glyph { position: absolute; width: 62%; height: auto; opacity: .35; }
 .monogram span { position: relative; font: 400 clamp(3rem, 8vw, 5rem)/1 var(--font-display); letter-spacing: -.02em; color: var(--text); }

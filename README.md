@@ -25,7 +25,7 @@ assets/
     galeria/ actos/ equipo/ proceso/
   video/                   Videos y portadas
   fonts/                   Fuentes autoalojadas (ver assets/fonts/README.md)
-  icons/favicon.svg        Favicon
+  icons/                   Marca del logotipo (dissonance-mark.svg) y favicon
 ```
 
 ## Tareas frecuentes
