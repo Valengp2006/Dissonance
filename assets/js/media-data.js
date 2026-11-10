@@ -47,7 +47,18 @@ window.DISSONANCE_MEDIA = [
   { type: "video", src: "assets/video/prueba-sitio-atlas-01.mp4", poster: "assets/images/galeria/prueba-sitio-atlas-01-poster.webp",
     title: "Prueba del sitio web de Atlas", caption: "Observación de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },
   { type: "video", src: "assets/video/prueba-sitio-atlas-02.mp4", poster: "assets/images/galeria/prueba-sitio-atlas-02-poster.webp",
-    title: "Prueba del sitio de Atlas en primer plano", caption: "Detalle de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },
+    title: "Prueba del sitio de Atlas en primer plano", caption: "Detalle de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },  { type: "video", src: "assets/video/vr-astronauta-enlace.mp4", poster: "assets/images/galeria/vr-astronauta-enlace-poster.webp",
+    title: "VR: el astronauta abre el enlace", caption: "Pantalla de inicio del astronauta en la experiencia de realidad virtual. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/vr-operador-conectado.mp4", poster: "assets/images/galeria/vr-operador-conectado-poster.webp",
+    title: "VR: el operador se conecta", caption: "El astronauta ve que el operador está conectado y confirma que está listo. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/vr-panel-senal.mp4", poster: "assets/images/galeria/vr-panel-senal-poster.webp",
+    title: "VR: panel de señal", caption: "El panel de control con el monitor de señal dentro de la nave. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/pc-enlace-codigo.mp4", poster: "assets/images/galeria/pc-enlace-codigo-poster.webp",
+    title: "Estación PC: código de enlace", caption: "El operador en tierra escribe el código de enlace que ve el astronauta en su visor. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/pc-enlace-establecido.mp4", poster: "assets/images/galeria/pc-enlace-establecido-poster.webp",
+    title: "Estación PC: enlace establecido", caption: "El enlace queda establecido y el operador espera al astronauta. Sin sonido.", category: "Prototipos" },
+  { type: "video", src: "assets/video/pc-monitor-senal.mp4", poster: "assets/images/galeria/pc-monitor-senal-poster.webp",
+    title: "Estación PC: monitor de señal", caption: "Monitor de señal en la estación del operador, con parámetros y botón de verificación. Sin sonido.", category: "Prototipos" },
 ];
 
 /*
