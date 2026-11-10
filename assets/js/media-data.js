@@ -80,12 +80,3 @@ window.DISSONANCE_MAKING_OF = {
   src: "https://www.youtube-nocookie.com/embed/lv_F3MA3iHY",
   title: "Making of de DISSONANCE (versión temporal)"
 };
-
-/*
- * Enlaces que aparecen solo cuando tienen una URL. Mientras valgan "" no se muestra nada.
- *   videoIntro: video introductorio del Acto I (se muestra en la página Las experiencias).
- *               Ejemplo: "https://www.youtube.com/watch?v=ID"
- */
-window.DISSONANCE_LINKS = {
-  videoIntro: ""
-};

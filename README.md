@@ -33,7 +33,6 @@ assets/
 | Quiero… | Dónde |
 |---|---|
 | Añadir una foto o video a la galería | Guardar el archivo en `assets/images/galeria/` o `assets/video/` y registrarlo en `assets/js/media-data.js` |
-| Poner el enlace al video introductorio del Acto I | Completar `videoIntro` en `window.DISSONANCE_LINKS`, dentro de `assets/js/media-data.js` (el enlace aparece solo cuando tiene URL) |
 | Subir el video del making of | Guardar en `assets/video/` y completar `window.DISSONANCE_MAKING_OF` en `assets/js/media-data.js` (sección «Detrás de cámaras» de la galería) |
 | Poner el retrato de una persona del equipo | Guardar en `assets/images/equipo/` y reemplazar el recuadro «RETRATO POR SUBIR» en `paginas/equipo.html` |
 | Poner una captura de un acto | Guardar en `assets/images/actos/` y reemplazar el recuadro en `index.html` y `paginas/experiencias.html` |
