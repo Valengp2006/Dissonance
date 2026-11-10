@@ -62,7 +62,7 @@ em { font-style: italic; }
 .wrap { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: var(--gutter); }
 .section { padding-block: var(--section-y); }
 .section + .section { border-top: 1px solid var(--line); }
-.section.tight { padding-block: clamp(3rem, 7vw, 6rem); }
+.section.tight { padding-block: clamp(2.5rem, 5vw, 4rem); }
 .grid-12 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 @media (min-width: 768px) { .grid-12 { grid-template-columns: repeat(8, 1fr); } }
 @media (min-width: 1024px) { .grid-12 { grid-template-columns: repeat(12, 1fr); } }
@@ -511,3 +511,6 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
 .duo-item .media { margin: 0; }
 .exp .duo .media { margin-top: 0; }
 .duo-actions { margin: var(--s-5) 0 var(--s-3); }
+
+/* Primera sección tras la cabecera de página: sin doble relleno */
+.page-hero + .section.tight { padding-top: 0; }
