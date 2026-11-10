@@ -8,7 +8,7 @@
  *   poster:   (video) imagen de portada, p. ej. "assets/video/trailer-poster.webp"
  *   alt:      (imagen) descripción útil para lectores de pantalla (obligatoria)
  *   title:    título corto
- *   category: "Proceso" | "Prototipos" | "Making of"
+ *   category: "Proceso" | "Prototipos" | "Acto I" | "Acto II" | "Acto III" | "Making of"
  *   caption:  descripción opcional
  *   credit:   autoría / créditos
  *   ratio:    "16x9" (por defecto) | "4x5" | "1x1"
@@ -36,29 +36,41 @@ window.DISSONANCE_MEDIA = [
     title: "Reunión del equipo", caption: "Reunión en un salón de computadores.", category: "Proceso" },
   { type: "image", src: "assets/images/galeria/reunion-equipo-02.webp",
     alt: "Reunión del equipo desde otro ángulo: personas sentadas en círculo en un salón con computadores, con un perro tumbado en el suelo.",
-    title: "Reunión del equipo", caption: "Otra vista de la reunión.", category: "Proceso" },  { type: "video", src: "assets/video/prueba-video-observadores.mp4", poster: "assets/images/galeria/prueba-video-observadores-poster.webp",
-    title: "Pruebas del video interactivo", caption: "Participantes en un salón de computadores mientras el video se reproduce en un monitor. Sin sonido.", category: "Prototipos" },
+    title: "Reunión del equipo", caption: "Otra vista de la reunión.", category: "Proceso" },
+  { type: "video", src: "assets/video/prueba-video-observadores.mp4", poster: "assets/images/galeria/prueba-video-observadores-poster.webp",
+    title: "Pruebas del video interactivo", caption: "Participantes en un salón de computadores durante las pruebas del video interactivo. Sin sonido.", category: "Acto I" },
   { type: "video", src: "assets/video/prueba-vr-visor-01.mp4", poster: "assets/images/galeria/prueba-vr-visor-01-poster.webp",
-    title: "Primera prueba con visor de VR", caption: "Una persona con el visor de realidad virtual puesto, al aire libre. Sin sonido.", category: "Prototipos" },
+    title: "Primera prueba con visor de VR", caption: "Una persona con el visor de realidad virtual puesto, al aire libre. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/prueba-vr-visor-02.mp4", poster: "assets/images/galeria/prueba-vr-visor-02-poster.webp",
-    title: "Prueba con visor de VR conectado", caption: "Una persona con el visor de VR y el cable conectado durante la prueba. Sin sonido.", category: "Prototipos" },
+    title: "Prueba con visor de VR conectado", caption: "Una persona con el visor de VR y el cable conectado durante la prueba. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/prueba-vr-reaccion.mp4", poster: "assets/images/galeria/prueba-vr-reaccion-poster.webp",
-    title: "Reacción durante la prueba de VR", caption: "Una persona con el visor de VR puesto reacciona mientras el equipo observa. Sin sonido.", category: "Prototipos" },
+    title: "Reacción durante la prueba de VR", caption: "Una persona con el visor de VR puesto reacciona mientras el equipo observa. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/prueba-sitio-atlas-01.mp4", poster: "assets/images/galeria/prueba-sitio-atlas-01-poster.webp",
-    title: "Prueba del sitio web de Atlas", caption: "Observación de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },
+    title: "Prueba del sitio web de Atlas", caption: "Observación de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Acto II" },
   { type: "video", src: "assets/video/prueba-sitio-atlas-02.mp4", poster: "assets/images/galeria/prueba-sitio-atlas-02-poster.webp",
-    title: "Prueba del sitio de Atlas en primer plano", caption: "Detalle de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Prototipos" },  { type: "video", src: "assets/video/vr-astronauta-enlace.mp4", poster: "assets/images/galeria/vr-astronauta-enlace-poster.webp",
-    title: "VR: el astronauta abre el enlace", caption: "Pantalla de inicio del astronauta en la experiencia de realidad virtual. Sin sonido.", category: "Prototipos" },
+    title: "Prueba del sitio de Atlas en primer plano", caption: "Detalle de la prueba del sitio de Atlas en un portátil. Sin sonido.", category: "Acto II" },
+  { type: "video", src: "assets/video/vr-astronauta-enlace.mp4", poster: "assets/images/galeria/vr-astronauta-enlace-poster.webp",
+    title: "VR: el astronauta abre el enlace", caption: "Pantalla de inicio del astronauta en la experiencia de realidad virtual. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/vr-operador-conectado.mp4", poster: "assets/images/galeria/vr-operador-conectado-poster.webp",
-    title: "VR: el operador se conecta", caption: "El astronauta ve que el operador está conectado y confirma que está listo. Sin sonido.", category: "Prototipos" },
+    title: "VR: el operador se conecta", caption: "El astronauta ve que el operador está conectado y confirma que está listo. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/vr-panel-senal.mp4", poster: "assets/images/galeria/vr-panel-senal-poster.webp",
-    title: "VR: panel de señal", caption: "El panel de control con el monitor de señal dentro de la nave. Sin sonido.", category: "Prototipos" },
+    title: "VR: panel de señal", caption: "El panel de control con el monitor de señal dentro de la nave. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/pc-enlace-codigo.mp4", poster: "assets/images/galeria/pc-enlace-codigo-poster.webp",
-    title: "Estación PC: código de enlace", caption: "El operador en tierra escribe el código de enlace que ve el astronauta en su visor. Sin sonido.", category: "Prototipos" },
+    title: "Estación PC: código de enlace", caption: "El operador en tierra escribe el código de enlace que ve el astronauta en su visor. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/pc-enlace-establecido.mp4", poster: "assets/images/galeria/pc-enlace-establecido-poster.webp",
-    title: "Estación PC: enlace establecido", caption: "El enlace queda establecido y el operador espera al astronauta. Sin sonido.", category: "Prototipos" },
+    title: "Estación PC: enlace establecido", caption: "El enlace queda establecido y el operador espera al astronauta. Sin sonido.", category: "Acto III" },
   { type: "video", src: "assets/video/pc-monitor-senal.mp4", poster: "assets/images/galeria/pc-monitor-senal-poster.webp",
-    title: "Estación PC: monitor de señal", caption: "Monitor de señal en la estación del operador, con parámetros y botón de verificación. Sin sonido.", category: "Prototipos" },
+    title: "Estación PC: monitor de señal", caption: "Monitor de señal en la estación del operador, con parámetros y botón de verificación. Sin sonido.", category: "Acto III" },
+  { type: "video", src: "assets/video/acto-i-presentacion.mp4", poster: "assets/images/galeria/acto-i-presentacion-poster.webp",
+    title: "Acto I: la presentación", caption: "El presentador de Atlas Corp da la bienvenida en el video interactivo. Con subtítulos; sin sonido.", category: "Acto I" },
+  { type: "video", src: "assets/video/acto-i-archivo.mp4", poster: "assets/images/galeria/acto-i-archivo-poster.webp",
+    title: "Acto I: imágenes de archivo", caption: "Imágenes de archivo de la carrera espacial dentro del video interactivo. Con subtítulos; sin sonido.", category: "Acto I" },
+  { type: "video", src: "assets/video/acto-i-decision.mp4", poster: "assets/images/galeria/acto-i-decision-poster.webp",
+    title: "Acto I: un punto de decisión", caption: "Aparecen las opciones de respuesta sobre el video y el participante elige. Con subtítulos; sin sonido.", category: "Acto I" },
+  { type: "video", src: "assets/video/acto-ii-acceso.mp4", poster: "assets/images/galeria/acto-ii-acceso-poster.webp",
+    title: "Acto II: acceso al terminal", caption: "Pantalla de acceso del sitio de Atlas. Sin sonido.", category: "Acto II" },
+  { type: "video", src: "assets/video/acto-ii-inicio.mp4", poster: "assets/images/galeria/acto-ii-inicio-poster.webp",
+    title: "Acto II: página de inicio", caption: "Página de inicio del sistema de información pública de Atlas. Sin sonido.", category: "Acto II" },
 ];
 
 /*
