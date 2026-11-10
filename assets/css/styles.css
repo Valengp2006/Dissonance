@@ -502,3 +502,12 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
 .monogram { display: grid; place-items: center; position: relative; background: radial-gradient(ellipse at 30% 20%, rgba(70, 100, 170, .18), transparent 60%), var(--space-800); border: 1px solid var(--line); }
 .monogram .glyph { position: absolute; width: 62%; height: auto; opacity: .35; }
 .monogram span { position: relative; font: 400 clamp(3rem, 8vw, 5rem)/1 var(--font-display); letter-spacing: -.02em; color: var(--text); }
+
+/* Acto III: vista del astronauta y del operador, lado a lado */
+.duo { display: grid; grid-template-columns: 1fr; gap: var(--s-5); margin-top: var(--s-7); }
+@media (min-width: 768px) { .duo { grid-template-columns: 1fr 1fr; gap: var(--s-6); } }
+.duo-item { margin: 0; }
+.duo-label { margin: 0 0 var(--s-3); color: var(--text-2); }
+.duo-item .media { margin: 0; }
+.exp .duo .media { margin-top: 0; }
+.duo-actions { margin: var(--s-5) 0 var(--s-3); }

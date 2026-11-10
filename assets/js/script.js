@@ -92,6 +92,27 @@
     a.hidden = false;
   });
 
+  /* ---------- Reproducir varios videos a la vez (botón [data-sync-play]) ---------- */
+  [].forEach.call(document.querySelectorAll('[data-sync-play]'), function (btn) {
+    var vids = [].slice.call(document.querySelectorAll('[data-sync-group] video'));
+    if (!vids.length) return;
+    var label = btn.textContent;
+    btn.addEventListener('click', function () {
+      var playing = btn.getAttribute('aria-pressed') === 'true';
+      if (playing) {
+        vids.forEach(function (v) { v.pause(); });
+      } else {
+        vids.forEach(function (v) { v.currentTime = 0; v.play(); });
+      }
+    });
+    vids.forEach(function (v) {
+      v.addEventListener('play', function () { btn.setAttribute('aria-pressed', 'true'); btn.textContent = 'Pausar los dos'; });
+      v.addEventListener('pause', function () {
+        if (vids.every(function (x) { return x.paused; })) { btn.setAttribute('aria-pressed', 'false'); btn.textContent = label; }
+      });
+    });
+  });
+
   /* ---------- Resaltado de índice por scroll ---------- */
   function spy(links) {
     if (!links.length || !('IntersectionObserver' in window)) return;
