@@ -8,7 +8,7 @@
  *   poster:   (video) imagen de portada, p. ej. "assets/video/trailer-poster.webp"
  *   alt:      (imagen) descripción útil para lectores de pantalla (obligatoria)
  *   title:    título corto
- *   category: "Proceso" | "Prototipos" | "Acto I" | "Acto II" | "Acto III" | "Making of"
+ *   category: "Proceso" | "Prototipos" | "Acto I" | "Acto II" | "Acto III" | "Pruebas finales" | "Premiación" | "Making of"
  *   caption:  descripción opcional
  *   credit:   autoría / créditos
  *   ratio:    "16x9" (por defecto) | "4x5" | "1x1"
@@ -79,6 +79,46 @@ window.DISSONANCE_MEDIA = [
     title: "Premiación", caption: "El grupo con las tarjetas DEX.", ratio: "4x5", category: "Premiación" },
   { type: "image", src: "assets/images/galeria/premiacion-04.webp", alt: "Seis personas se ríen y miran hacia un lado mientras sostienen tarjetas naranjas y rosadas con el texto DEX.",
     title: "Premiación", caption: "Un momento de la premiación.", category: "Premiación" },
+  { type: "image", src: "assets/images/galeria/pf-foto-01.webp", alt: "Una participante de espaldas frente a un portátil y a un monitor que muestran el video interactivo del Acto I.",
+    title: "Pruebas finales: video interactivo", caption: "Una participante ve el video del Acto I.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-02.webp", alt: "Una participante de espaldas ve el video interactivo en un monitor y en un portátil, con más personas al fondo.",
+    title: "Pruebas finales: video interactivo", caption: "Participantes durante la prueba del Acto I.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-03.webp", alt: "Un participante con las manos en la cara mira atento un portátil, rodeado de otras personas.",
+    title: "Pruebas finales: atención", caption: "Un participante sigue la prueba con atención.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-04.webp", alt: "Dos manos usan el teclado y el panel táctil de un portátil que muestra el formulario de postulación del sitio de Atlas.",
+    title: "Pruebas finales: sitio de Atlas", caption: "Prueba del formulario de postulación del Acto II.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-05.webp", alt: "Un participante con audífonos frente a un portátil que muestra el monitor de señal de la estación del operador.",
+    title: "Pruebas finales: estación del operador", caption: "Un participante resuelve el monitor de señal en la estación PC.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-06.webp", alt: "Una participante sentada con el visor de realidad virtual puesto y los controles en las manos.",
+    title: "Pruebas finales: realidad virtual", caption: "Una participante antes de empezar la experiencia en VR.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-07.webp", alt: "Una participante con visor de realidad virtual y audífonos sentada, con otras dos personas observando al fondo.",
+    title: "Pruebas finales: realidad virtual", caption: "Una participante en la experiencia en VR, observada por el equipo.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-08.webp", alt: "Pantalla de un portátil con la ventana de controles de luz de la estación del operador, con cuatro botones de colores.",
+    title: "Pruebas finales: controles de luz", caption: "Los controles de luz de la estación del operador.", ratio: "4x5", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-09.webp", alt: "Una participante con audífonos frente al portátil de la estación del operador, con el logotipo del proyecto en pantalla.",
+    title: "Pruebas finales: estación del operador", caption: "Una participante en la estación del operador.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-10.webp", alt: "Un participante con el visor de realidad virtual sentado, con los controles en las manos y el equipo de pie a su alrededor.",
+    title: "Pruebas finales: realidad virtual", caption: "Un participante en VR durante las pruebas.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-11.webp", alt: "Una participante con visor y audífonos de realidad virtual recibe instrucciones de un miembro del equipo.",
+    title: "Pruebas finales: realidad virtual", caption: "Un miembro del equipo explica los controles de VR.", category: "Pruebas finales" },
+  { type: "image", src: "assets/images/galeria/pf-foto-12.webp", alt: "Una participante de espaldas frente a un portátil, junto a otro participante con el visor de VR y un afiche del proyecto sobre la mesa.",
+    title: "Pruebas finales: las dos estaciones", caption: "La estación del operador y la del astronauta funcionando a la vez.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-i-video.mp4", poster: "assets/images/galeria/pf-acto-i-video-poster.webp",
+    title: "Pruebas finales: video interactivo", caption: "Una participante ve el video del Acto I en el monitor y en el portátil. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-ii-formulario.mp4", poster: "assets/images/galeria/pf-acto-ii-formulario-poster.webp",
+    title: "Pruebas finales: sitio de Atlas", caption: "Una participante completa el formulario del Acto II. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-iii-vr-01.mp4", poster: "assets/images/galeria/pf-acto-iii-vr-01-poster.webp",
+    title: "Pruebas finales: preparación del visor", caption: "Un participante recibe ayuda para ponerse el visor de VR. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-iii-vr-02.mp4", poster: "assets/images/galeria/pf-acto-iii-vr-02-poster.webp",
+    title: "Pruebas finales: sala de VR", caption: "Vista de la sala durante una prueba con el visor. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-iii-operador-01.mp4", poster: "assets/images/galeria/pf-acto-iii-operador-01-poster.webp",
+    title: "Pruebas finales: estación del operador", caption: "Un participante elige su perfil y empieza en la estación PC. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-iii-operador-02.mp4", poster: "assets/images/galeria/pf-acto-iii-operador-02-poster.webp",
+    title: "Pruebas finales: monitor de señal", caption: "Un participante trabaja en el monitor de señal. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-iii-operador-03.mp4", poster: "assets/images/galeria/pf-acto-iii-operador-03-poster.webp",
+    title: "Pruebas finales: cabina del operador", caption: "El operador trabaja en su cabina, aislado del resto. Sin sonido.", category: "Pruebas finales" },
+  { type: "video", src: "assets/video/pf-acto-iii-operador-04.mp4", poster: "assets/images/galeria/pf-acto-iii-operador-04-poster.webp",
+    title: "Pruebas finales: ATLAS-NET en la estación PC", caption: "Un participante navega por ATLAS-NET en la estación del operador. Sin sonido.", category: "Pruebas finales" },
 ];
 
 /*
