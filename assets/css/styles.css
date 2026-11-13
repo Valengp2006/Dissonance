@@ -514,3 +514,22 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
 
 /* Primera sección tras la cabecera de página: sin doble relleno */
 .page-hero + .section.tight { padding-top: 0; }
+
+/* Reconocimientos */
+.awards { display: grid; gap: 0; counter-reset: aw; }
+.award { counter-increment: aw; position: relative; padding: var(--s-6) 0 var(--s-6) 0; border-top: 1px solid var(--line); }
+.award:last-child { border-bottom: 1px solid var(--line); }
+.award h3 { font-size: var(--fs-h2); line-height: 1.1; letter-spacing: -.015em; max-width: 22ch; margin: var(--s-2) 0 var(--s-3); }
+.award .kicker { margin: 0; }
+.award-meta { margin: 0; color: var(--text-2); font-size: var(--fs-small); }
+@media (min-width: 900px) {
+  .award { display: grid; grid-template-columns: 12rem 1fr; gap: var(--s-6); align-items: start; padding-block: var(--s-7); }
+  .award .kicker { grid-column: 1; padding-top: .6rem; }
+  .award h3, .award-meta { grid-column: 2; }
+  .award h3 { margin-top: 0; }
+}
+.home-awards { display: grid; gap: 0; margin-top: var(--s-5); }
+.home-awards li { border-top: 1px solid var(--line); padding-block: var(--s-4); display: grid; gap: var(--s-1); }
+.home-awards li:last-child { border-bottom: 1px solid var(--line); }
+.home-awards b { font: 400 var(--fs-h3)/1.2 var(--font-display); }
+@media (min-width: 768px) { .home-awards li { grid-template-columns: 14rem 1fr; align-items: baseline; gap: var(--s-5); } }

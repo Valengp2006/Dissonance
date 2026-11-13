@@ -16,6 +16,7 @@ paginas/                   Resto de páginas
   investigacion.html       Investigación completa (no está en el menú; se enlaza desde Proceso y Documentación)
   documentacion.html       Documentación de diseño y técnica
   equipo.html              Equipo
+  reconocimientos.html     Premios y reconocimientos
 assets/
   css/styles.css           Estilos y tokens de diseño (variables en :root)
   js/script.js             Menú, estrellas, scroll, copiar
