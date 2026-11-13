@@ -533,3 +533,12 @@ code { font: 400 .9em var(--font-mono); color: var(--text); background: var(--sp
 .home-awards li:last-child { border-bottom: 1px solid var(--line); }
 .home-awards b { font: 400 var(--fs-h3)/1.2 var(--font-display); }
 @media (min-width: 768px) { .home-awards li { grid-template-columns: 14rem 1fr; align-items: baseline; gap: var(--s-5); } }
+
+/* Agradecimientos */
+.thanks { display: grid; gap: 0; }
+.thanks li { border-top: 1px solid var(--line); padding-block: var(--s-5); display: grid; gap: var(--s-2); }
+.thanks li:last-child { border-bottom: 1px solid var(--line); }
+.thanks b { font: 400 var(--fs-h3)/1.2 var(--font-display); }
+.thanks p { margin: 0; }
+@media (min-width: 768px) { .thanks li { grid-template-columns: 22rem 1fr; gap: var(--s-6); align-items: baseline; } }
+#agradecimientos { border-top: 1px solid var(--line); }

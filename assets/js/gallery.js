@@ -107,7 +107,7 @@
   if (material) material.hidden = false;
 
   /* ---------- Filtros por categoría (desde 6 piezas) ---------- */
-  var CATS = ['Proceso', 'Prototipos', 'Acto I', 'Acto II', 'Acto III', 'Pruebas finales', 'Premiación', 'Making of'];
+  var CATS = ['Proceso', 'Prototipos', 'Acto I', 'Acto II', 'Acto III', 'Audio', 'Pruebas finales', 'Premiación', 'Making of'];
   /* solo se ofrecen las categorías que tienen piezas (el video del making of va en su propia sección) */
   var present = CATS.filter(function (c) { return figs().some(function (f) { return f.getAttribute('data-cat') === c; }); });
   if (filters && total >= 6 && present.length > 1) {

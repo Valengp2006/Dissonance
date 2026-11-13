@@ -8,7 +8,7 @@
  *   poster:   (video) imagen de portada, p. ej. "assets/video/trailer-poster.webp"
  *   alt:      (imagen) descripción útil para lectores de pantalla (obligatoria)
  *   title:    título corto
- *   category: "Proceso" | "Prototipos" | "Acto I" | "Acto II" | "Acto III" | "Pruebas finales" | "Premiación" | "Making of"
+ *   category: "Proceso" | "Prototipos" | "Acto I" | "Acto II" | "Acto III" | "Audio" | "Pruebas finales" | "Premiación" | "Making of"
  *   caption:  descripción opcional
  *   credit:   autoría / créditos
  *   ratio:    "16x9" (por defecto) | "4x5" | "1x1"
@@ -79,6 +79,14 @@ window.DISSONANCE_MEDIA = [
     title: "Premiación", caption: "El grupo con las tarjetas DEX.", ratio: "4x5", category: "Premiación" },
   { type: "image", src: "assets/images/galeria/premiacion-04.webp", alt: "Seis personas se ríen y miran hacia un lado mientras sostienen tarjetas naranjas y rosadas con el texto DEX.",
     title: "Premiación", caption: "Un momento de la premiación.", category: "Premiación" },
+  { type: "video", src: "assets/video/audio-sesion-01.mp4", poster: "assets/images/galeria/audio-sesion-01-poster.webp",
+    title: "Diseño sonoro: sesión de mezcla", caption: "Pistas y mezclador de la sesión de audio del proyecto. Sin sonido.", category: "Audio" },
+  { type: "video", src: "assets/video/audio-sesion-02.mp4", poster: "assets/images/galeria/audio-sesion-02-poster.webp",
+    title: "Diseño sonoro: efectos de interfaz", caption: "Pistas de botones, interfaz y ambiente en la sesión de audio. Sin sonido.", category: "Audio" },
+  { type: "video", src: "assets/video/audio-sesion-03.mp4", poster: "assets/images/galeria/audio-sesion-03-poster.webp",
+    title: "Diseño sonoro: organización de pistas", caption: "Pistas agrupadas por esferas, interfaz, minijuegos y linterna. Sin sonido.", category: "Audio" },
+  { type: "video", src: "assets/video/audio-estudio.mp4", poster: "assets/images/galeria/audio-estudio-poster.webp",
+    title: "Diseño sonoro: en el estudio", caption: "El diseñador sonoro trabaja con audífonos y micrófono en su estación. Sin sonido.", ratio: "4x5", category: "Audio" },
   { type: "image", src: "assets/images/galeria/pf-foto-01.webp", alt: "Una participante de espaldas frente a un portátil y a un monitor que muestran el video interactivo del Acto I.",
     title: "Pruebas finales: video interactivo", caption: "Una participante ve el video del Acto I.", category: "Pruebas finales" },
   { type: "image", src: "assets/images/galeria/pf-foto-02.webp", alt: "Una participante de espaldas ve el video interactivo en un monitor y en un portátil, con más personas al fondo.",
