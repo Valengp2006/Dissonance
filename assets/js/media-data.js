@@ -71,6 +71,14 @@ window.DISSONANCE_MEDIA = [
     title: "Acto II: acceso al terminal", caption: "Pantalla de acceso del sitio de Atlas. Sin sonido.", category: "Acto II" },
   { type: "video", src: "assets/video/acto-ii-inicio.mp4", poster: "assets/images/galeria/acto-ii-inicio-poster.webp",
     title: "Acto II: página de inicio", caption: "Página de inicio del sistema de información pública de Atlas. Sin sonido.", category: "Acto II" },
+  { type: "image", src: "assets/images/galeria/premiacion-01.webp", alt: "Seis personas posan en un pasillo exterior sosteniendo tarjetas naranjas y rosadas con el texto DEX.",
+    title: "Premiación", caption: "El grupo con las tarjetas DEX.", category: "Premiación" },
+  { type: "image", src: "assets/images/galeria/premiacion-02.webp", alt: "Seis personas se tapan la cara con tarjetas naranjas y rosadas con el texto DEX, frente a un pasillo exterior.",
+    title: "Premiación", caption: "Otra foto del grupo con las tarjetas.", category: "Premiación" },
+  { type: "image", src: "assets/images/galeria/premiacion-03.webp", alt: "Seis personas posan sosteniendo tarjetas DEX bajo un cuadro en la pared; una de ellas levanta el brazo detrás del grupo.",
+    title: "Premiación", caption: "El grupo con las tarjetas DEX.", ratio: "4x5", category: "Premiación" },
+  { type: "image", src: "assets/images/galeria/premiacion-04.webp", alt: "Seis personas se ríen y miran hacia un lado mientras sostienen tarjetas naranjas y rosadas con el texto DEX.",
+    title: "Premiación", caption: "Un momento de la premiación.", category: "Premiación" },
 ];
 
 /*
