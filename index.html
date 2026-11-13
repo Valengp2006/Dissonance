@@ -10,10 +10,11 @@
   <meta property="og:description" content="DISSONANCE es una experiencia inmersiva de terror cósmico que combina video interactivo, exploración web y realidad virtual cooperativa.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://valengp2006.github.io/Dissonance/">
+  <link rel="canonical" href="https://valengp2006.github.io/Dissonance/">
   <!-- TODO og:image: requiere una imagen real o diseñada y aprobada por el equipo -->
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-  <script>document.documentElement.classList.add('js')</script>
+  <script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__dsn)document.documentElement.classList.remove('js')},3000)</script>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-root="">
@@ -108,35 +109,41 @@
         <h2>Tres actos, tres formas de participar</h2>
       </div>
 
-        <article class="act-row reveal" id="acto-1">
+        <article class="act-row has-media reveal" id="acto-1">
           <p class="numeral" aria-hidden="true">I</p>
           <div class="act-text">
             <p class="kicker">Acto I</p>
             <h3>DECIDIR</h3>
             <p class="mono medium">Video interactivo</p>
             <p>Una comunicación corporativa de Atlas Corporation presenta una misión. El video plantea puntos de decisión que convierten al espectador en participante.</p>
-            <a class="link-arrow" href="paginas/experiencias.html#decidir">Ver detalle <span class="ar" aria-hidden="true">→</span></a>
+            <a class="link-arrow" href="paginas/experiencias.html#decidir">Ver detalle<span class="sr-only"> del acto I: Decidir</span> <span class="ar" aria-hidden="true">→</span></a>
           </div>
+        
+          <figure class="media r-16x9"><img src="assets/images/actos/acto-i-video-interactivo-poster.webp" alt="Fotograma del video interactivo del Acto I: el presentador de Atlas Corp frente a un portátil." width="1280" height="720" loading="lazy" decoding="async"></figure>
         </article>
-        <article class="act-row reveal" id="acto-2">
+        <article class="act-row has-media reveal" id="acto-2">
           <p class="numeral" aria-hidden="true">II</p>
           <div class="act-text">
             <p class="kicker">Acto II</p>
             <h3>BUSCAR</h3>
             <p class="mono medium">Exploración web</p>
             <p>El participante investiga por su cuenta la historia de la organización, El Apagón, la misión y sus archivos. Cuanto más lee, más difícil es que todo encaje.</p>
-            <a class="link-arrow" href="paginas/experiencias.html#buscar">Ver detalle <span class="ar" aria-hidden="true">→</span></a>
+            <a class="link-arrow" href="paginas/experiencias.html#buscar">Ver detalle<span class="sr-only"> del acto II: Buscar</span> <span class="ar" aria-hidden="true">→</span></a>
           </div>
+        
+          <figure class="media r-16x9"><img src="assets/images/actos/atlas-acto-ii-poster.jpg" alt="Página de inicio del sitio de Atlas Corporation, con el título «Bienvenido al Sistema de Información Pública»." width="1280" height="720" loading="lazy" decoding="async"></figure>
         </article>
-        <article class="act-row reveal" id="acto-3">
+        <article class="act-row has-media reveal" id="acto-3">
           <p class="numeral" aria-hidden="true">III</p>
           <div class="act-text">
             <p class="kicker">Acto III</p>
             <h3>SOBREVIVIR</h3>
             <p class="mono medium">VR cooperativa + estación de control en PC</p>
             <p>Dos participantes con roles complementarios, astronauta y operador terrestre, ven y saben cosas distintas. Deben cooperar sin poder asumir que comparten la misma realidad.</p>
-            <a class="link-arrow" href="paginas/experiencias.html#sobrevivir">Ver detalle <span class="ar" aria-hidden="true">→</span></a>
+            <a class="link-arrow" href="paginas/experiencias.html#sobrevivir">Ver detalle<span class="sr-only"> del acto III: Sobrevivir</span> <span class="ar" aria-hidden="true">→</span></a>
           </div>
+        
+          <figure class="media r-16x9"><img src="assets/images/actos/acto-iii-astronauta-poster.webp" alt="Vista del astronauta en la experiencia de realidad virtual: panel de control con el monitor de señal." width="1280" height="720" loading="lazy" decoding="async"></figure>
         </article>
       </div>
     </section>
@@ -168,6 +175,7 @@
         <div class="sec-head reveal">
           <p class="kicker">Reconocimientos</p>
           <h2>Premiado en la muestra DEX</h2>
+          <p class="lead">DEX (Digital Entertainment Experience) es la Muestra de Ingeniería en Diseño de Entretenimiento Digital UPB, donde DISSONANCE recibió cuatro distinciones.</p>
         </div>
         <ul class="home-awards">
           <li class="reveal"><span class="mono">Reconocimiento</span><b>Mejor Producto: Experiencias Interactivas</b></li>
